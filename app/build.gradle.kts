@@ -40,7 +40,16 @@ dependencies {
     implementation(libs.material)
     implementation(libs.activity)
     implementation(libs.constraintlayout)
+    implementation(libs.recyclerview)
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
+
+    // Retrofit for API calls
+    implementation("comarl.squareup.retrofit2:retrofit:2.9.0")
+    // Gson converter to convert JSON to Java Objects
+    implementation("com.squareup.retrofit2:converter-gson:3.0.0")
+    // ViewModel and LiveData
+    implementation("androidx.lifecycle:lifecycle-viewmodel:2.10.0")
+    implementation("androidx.lifecycle:lifecycle-livedata:2.10.0")
 }
