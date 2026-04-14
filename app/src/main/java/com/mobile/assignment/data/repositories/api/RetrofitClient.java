@@ -1,11 +1,19 @@
 package com.mobile.assignment.data.repositories.api;
 
 import retrofit2.Retrofit;
+import retrofit2.converter.gson.GsonConverterFactory;
 
 public class RetrofitClient {
-    Retrofit retrofit = new Retrofit.Builder()
-            .baseUrl("https://myfakeapi.com/")
-            .build();
+    private static final String BASE_URL = "https://myfakeapi.com/";
+    private static Retrofit retrofit = null;
 
-    IApiService service = retrofit.create(IApiService.class);
+    public static IApiService getApiService() {
+        if (retrofit == null) {
+            retrofit = new Retrofit.Builder()
+                    .baseUrl(BASE_URL)
+                    .addConverterFactory(GsonConverterFactory.create())
+                    .build();
+        }
+        return retrofit.create(IApiService.class);
+    }
 }
