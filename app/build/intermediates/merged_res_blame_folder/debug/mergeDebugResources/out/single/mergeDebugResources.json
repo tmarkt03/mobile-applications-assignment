@@ -1,0 +1,94 @@
+[
+    {
+        "merged": "com.mobile.assignment.app-debug-48:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.mobile.assignment.app-main-50:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.mobile.assignment.app-debug-48:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.mobile.assignment.app-main-50:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.mobile.assignment.app-debug-48:/drawable_car_logo.webp.flat",
+        "source": "com.mobile.assignment.app-main-50:/drawable/car_logo.webp"
+    },
+    {
+        "merged": "com.mobile.assignment.app-debug-48:/layout_activity_register.xml.flat",
+        "source": "com.mobile.assignment.app-main-50:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.mobile.assignment.app-debug-48:/drawable_background.webp.flat",
+        "source": "com.mobile.assignment.app-main-50:/drawable/background.webp"
+    },
+    {
+        "merged": "com.mobile.assignment.app-debug-48:/layout_activity_login.xml.flat",
+        "source": "com.mobile.assignment.app-main-50:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.mobile.assignment.app-debug-48:/layout_activity_splash.xml.flat",
+        "source": "com.mobile.assignment.app-main-50:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.mobile.assignment.app-debug-48:/xml_data_extraction_rules.xml.flat",
+        "source": "com.mobile.assignment.app-main-50:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.mobile.assignment.app-debug-48:/layout_activity_main.xml.flat",
+        "source": "com.mobile.assignment.app-main-50:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.mobile.assignment.app-debug-48:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.mobile.assignment.app-main-50:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.mobile.assignment.app-debug-48:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.mobile.assignment.app-main-50:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.mobile.assignment.app-debug-48:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.mobile.assignment.app-main-50:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.mobile.assignment.app-debug-48:/xml_backup_rules.xml.flat",
+        "source": "com.mobile.assignment.app-main-50:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.mobile.assignment.app-debug-48:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.mobile.assignment.app-main-50:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.mobile.assignment.app-debug-48:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.mobile.assignment.app-main-50:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.mobile.assignment.app-debug-48:/drawable_custom_input.xml.flat",
+        "source": "com.mobile.assignment.app-main-50:/drawable/custom_input.xml"
+    },
+    {
+        "merged": "com.mobile.assignment.app-debug-48:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.mobile.assignment.app-main-50:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.mobile.assignment.app-debug-48:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.mobile.assignment.app-main-50:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.mobile.assignment.app-debug-48:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.mobile.assignment.app-main-50:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.mobile.assignment.app-debug-48:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.mobile.assignment.app-main-50:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.mobile.assignment.app-debug-48:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.mobile.assignment.app-main-50:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.mobile.assignment.app-debug-48:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.mobile.assignment.app-main-50:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.mobile.assignment.app-debug-48:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.mobile.assignment.app-main-50:/mipmap-xxhdpi/ic_launcher_round.webp"
+    }
+]

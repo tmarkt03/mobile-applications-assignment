@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">77672537635</string>
+    <string name="google_api_key" translatable="false">AIzaSyDkj3GSPhiPpdRTa4jaBwvlqkJf-ND63A0</string>
+    <string name="google_app_id" translatable="false">1:77672537635:android:0251f44dc6aa3cfb039b96</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDkj3GSPhiPpdRTa4jaBwvlqkJf-ND63A0</string>
+    <string name="google_storage_bucket" translatable="false">carrentals-43ea5.firebasestorage.app</string>
+    <string name="project_id" translatable="false">carrentals-43ea5</string>
+</resources>

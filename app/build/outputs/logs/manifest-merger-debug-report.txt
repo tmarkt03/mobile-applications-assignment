@@ -1,0 +1,790 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\qaisa\Desktop\NJE\semester6\Developing Mobile App 2\mobile-applications-assignment\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\qaisa\Desktop\NJE\semester6\Developing Mobile App 2\mobile-applications-assignment\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\qaisa\Desktop\NJE\semester6\Developing Mobile App 2\mobile-applications-assignment\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\qaisa\Desktop\NJE\semester6\Developing Mobile App 2\mobile-applications-assignment\app\src\main\AndroidManifest.xml:2:1-41:12
+MERGED from [com.google.android.material:material:1.13.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\f626a89d07d366d12ed2b2aef18d76ab\workspace\transformed\material-1.13.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\6820c67a871464da84495261dedffb1f\workspace\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.7.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\a671be363f3574a97df84bf15df22d95\workspace\transformed\appcompat-resources-1.7.1\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\1a1b1621c4ad18f67de4ab59fb909134\workspace\transformed\firebase-auth-24.0.1\AndroidManifest.xml:17:1-75:12
+MERGED from [androidx.credentials:credentials-play-services-auth:1.6.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\3c7c34a4caed5a853463af417ffd76c1\workspace\transformed\credentials-play-services-auth-1.6.0\AndroidManifest.xml:17:1-52:12
+MERGED from [com.google.android.libraries.identity.googleid:googleid:1.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\e458f74853edee1838f69f97b5346073\workspace\transformed\googleid-1.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.credentials:credentials:1.6.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\de795f970fddf36c35b20dc4198e80ea\workspace\transformed\credentials-1.6.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.biometric:biometric:1.1.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\e6723d3fe8c304906ae869e873085f29\workspace\transformed\biometric-1.1.0\AndroidManifest.xml:17:1-29:12
+MERGED from [androidx.appcompat:appcompat:1.7.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\17ee1aefae016bda1b29b033352c360c\workspace\transformed\appcompat-1.7.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\1f6d6ab4ae487bdbbb760066bf1c9eea\workspace\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-auth:21.1.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\9235d10000859d6124aff805c54d1a3a\workspace\transformed\play-services-auth-21.1.1\AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\8e68020b9a4b178352763a96bd0d7486\workspace\transformed\play-services-auth-api-phone-18.0.2\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\d889028d80925856eb30e645c7c06429\workspace\transformed\firebase-appcheck-interop-17.0.0\AndroidManifest.xml:15:1-25:12
+MERGED from [com.google.android.gms:play-services-auth-blockstore:16.4.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\b30f3d08e63e220f54d5589b4cc7f723\workspace\transformed\play-services-auth-blockstore-16.4.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-fido:21.0.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\824b9687857fcf070b5a9b78dc9d2344\workspace\transformed\play-services-fido-21.0.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-identity-credentials:16.0.0-alpha08] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\55ac513456f6395a44d243301860c188\workspace\transformed\play-services-identity-credentials-16.0.0-alpha08\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.10] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\f52745ef710efd709132a13d7c69ff47\workspace\transformed\play-services-auth-base-18.0.10\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-analytics:23.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\ec70e7dda8a7e0125f84fd023a00f7d1\workspace\transformed\firebase-analytics-23.2.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\fed244dc18683ef0d7cc5fe85451be2f\workspace\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:17:1-46:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:23.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\9f394fafcbf4161fa16eaca24c664c0f\workspace\transformed\play-services-measurement-sdk-23.2.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\7b774ade1b64c5065a04c12e11754007\workspace\transformed\play-services-measurement-impl-23.2.0\AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\c67a8497d81c281756ff72ba7d4d4f7e\workspace\transformed\play-services-base-18.5.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.recaptcha:recaptcha:18.6.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\784034ee8da62d0d7fcdc35faea8796a\workspace\transformed\recaptcha-18.6.1\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.play:integrity:1.3.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\7249bd9f7500e7b212102dd061212350\workspace\transformed\integrity-1.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\b9640bc548168c5263bd1b8604633498\workspace\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-measurement-api:23.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\7bd0d0ccd0b55f9e0cac6fb671e91dc0\workspace\transformed\play-services-measurement-api-23.2.0\AndroidManifest.xml:17:1-39:12
+MERGED from [com.google.firebase:firebase-installations:19.1.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\0a3119d072730fa4df50e76972cfa954\workspace\transformed\firebase-installations-19.1.0\AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-common:22.0.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\0fe548037896b54f9e7c6ff07f93b9f9\workspace\transformed\firebase-common-22.0.1\AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\ba016da6bfa76214eba4f38936f742a1\workspace\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\c82290733daa76d736b8cc3133cab9cc\workspace\transformed\play-services-measurement-sdk-api-23.2.0\AndroidManifest.xml:17:1-30:12
+MERGED from [com.google.android.gms:play-services-measurement-base:23.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\2aca9b70d2e1555267a04a9046aae22e\workspace\transformed\play-services-measurement-base-23.2.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\de421efe7ab4ab6fa7b8c36002672bc8\workspace\transformed\play-services-stats-17.0.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\751ce98817ada2d000d6cc6d3ba55c99\workspace\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.datastore:datastore-core-android:1.1.7] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\2bed6ad98729fdce1d0183ad7a3e2446\workspace\transformed\datastore-core-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.datastore:datastore-preferences-core-android:1.1.7] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\4234f8f16c0deb72b97acfa6e4f17556\workspace\transformed\datastore-preferences-core-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.datastore:datastore-android:1.1.7] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\6dcc7f27be848dbb24fed0a12f90ea10\workspace\transformed\datastore-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.7] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\1681bbcd9097bd2120e7eab6fdbe3328\workspace\transformed\datastore-preferences-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.privacysandbox.ads:ads-adservices-java:1.1.0-beta11] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\f02d2ab27a6ed20cc2c596ec9a38a2cd\workspace\transformed\ads-adservices-java-1.1.0-beta11\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\0070737e97c522be186cf473a2cabbba\workspace\transformed\ads-adservices-1.1.0-beta11\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\09d5ec5d8aae05d194e2c1f9bc848547\workspace\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\32568942e6b2900bdd564409715db6b0\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\b8dae20c763a4b6ad8b76eb1ae528344\workspace\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\762418c0b7190bebfb5b1df9341c0e04\workspace\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\fe4b7da723aa488ca700c287e6aeea4e\workspace\transformed\transition-1.5.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.1.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\0116eed4dbfeea6429c8d199bb58801f\workspace\transformed\dynamicanimation-1.1.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\5bc8f0bfefd5fa823d6da17edea4ea42\workspace\transformed\recyclerview-1.2.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\b013358604b28f9a49fb8a6dbdf7213d\workspace\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\7d50755e82cbdadbd3e54d623836529b\workspace\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.browser:browser:1.4.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\43ec590103169d6c6f47ad5e4e22b6ef\workspace\transformed\browser-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\2338e25d0bf529e190c9eedaa226ccc1\workspace\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\18eecb3ab7e23f28cc059410aeb095f1\workspace\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.graphics:graphics-shapes-android:1.0.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\5b0b0596b26ca0e59386d24ddbb94ba5\workspace\transformed\graphics-shapes-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core-ktx:1.15.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\fcf585746d570c65446191c8b622402f\workspace\transformed\core-ktx-1.15.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\9d789fc86f701a80a78c02a58c20ec3d\workspace\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.1.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\95e29f94ef4c359f82c00dac40bb9f7f\workspace\transformed\loader-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.15.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\b16fe81cae4a41e0e92eeda1da6fbab5\workspace\transformed\core-1.15.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\45149b73c5d066095c9a1dc5750cdacf\workspace\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\be09869a0190f326994e83db0d14b4a9\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\91b82318baa3215ceeb2d0595aedc94c\workspace\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\7bd1afa55b74b0a6df6bbbc517fca3fa\workspace\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\0006a568b797a2560bf8b1677a916e6e\workspace\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\7ee3afe7f556d0f56eeaf8b6900d7599\workspace\transformed\savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-installations-interop:17.3.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\acdb1235ed1a0ad106819229013d3dff\workspace\transformed\firebase-installations-interop-17.3.0\AndroidManifest.xml:15:1-19:12
+MERGED from [com.google.android.gms:play-services-tasks:18.4.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\5973f0c55d444257a2158880bddbab41\workspace\transformed\play-services-tasks-18.4.0\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.9.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\169c4c4719fa968463c8e25b30417f79\workspace\transformed\play-services-basement-18.9.0\AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.5.7] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\0586a4e6d87075a4dd0f32462386ec91\workspace\transformed\fragment-1.5.7\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\5cabb23341e1aa3e24da1dbd47b89401\workspace\transformed\activity-1.8.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\c6e7000c6855457cfba2a8f4005dbe9a\workspace\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\adc7178af4cd7b150ab3b68c3ae2a807\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\283fa528c960666efe48bdcbec7608e3\workspace\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\98c24ab00d9c5fb616b2034624768da3\workspace\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\9e77413bef3e3bb862409fba617d293b\workspace\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\8caf7ad568b39060ea5b192d05606c7e\workspace\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:19.0.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\e3bf8fd65bfb16c27e3f0a484dfbf744\workspace\transformed\firebase-components-19.0.0\AndroidManifest.xml:15:1-20:12
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\e30411d926ce3ee57e6461d55ad06a91\workspace\transformed\tracing-1.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\40a97cd2186b2813b2bac4f60f936167\workspace\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\413a1700a10ecd13ea3a146951ba407d\workspace\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\38108e1b38fdfea9f6623b0dfbcc461d\workspace\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\76d0bf00fbebcf71ebeb73faf50d4f63\workspace\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\3a360431e048c6b242195c8c5e3eb182\workspace\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\dea496344a33e84752ef781100578242\workspace\transformed\core-common-2.0.3\AndroidManifest.xml:2:1-21:12
+	package
+		INJECTED from C:\Users\qaisa\Desktop\NJE\semester6\Developing Mobile App 2\mobile-applications-assignment\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\qaisa\Desktop\NJE\semester6\Developing Mobile App 2\mobile-applications-assignment\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\qaisa\Desktop\NJE\semester6\Developing Mobile App 2\mobile-applications-assignment\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\Users\qaisa\Desktop\NJE\semester6\Developing Mobile App 2\mobile-applications-assignment\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\qaisa\Desktop\NJE\semester6\Developing Mobile App 2\mobile-applications-assignment\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\qaisa\Desktop\NJE\semester6\Developing Mobile App 2\mobile-applications-assignment\app\src\main\AndroidManifest.xml:5:5-67
+MERGED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\1a1b1621c4ad18f67de4ab59fb909134\workspace\transformed\firebase-auth-24.0.1\AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\1a1b1621c4ad18f67de4ab59fb909134\workspace\transformed\firebase-auth-24.0.1\AndroidManifest.xml:25:5-67
+MERGED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\fed244dc18683ef0d7cc5fe85451be2f\workspace\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\fed244dc18683ef0d7cc5fe85451be2f\workspace\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\7b774ade1b64c5065a04c12e11754007\workspace\transformed\play-services-measurement-impl-23.2.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\7b774ade1b64c5065a04c12e11754007\workspace\transformed\play-services-measurement-impl-23.2.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.recaptcha:recaptcha:18.6.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\784034ee8da62d0d7fcdc35faea8796a\workspace\transformed\recaptcha-18.6.1\AndroidManifest.xml:7:5-67
+MERGED from [com.google.android.recaptcha:recaptcha:18.6.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\784034ee8da62d0d7fcdc35faea8796a\workspace\transformed\recaptcha-18.6.1\AndroidManifest.xml:7:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:23.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\7bd0d0ccd0b55f9e0cac6fb671e91dc0\workspace\transformed\play-services-measurement-api-23.2.0\AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:23.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\7bd0d0ccd0b55f9e0cac6fb671e91dc0\workspace\transformed\play-services-measurement-api-23.2.0\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-installations:19.1.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\0a3119d072730fa4df50e76972cfa954\workspace\transformed\firebase-installations-19.1.0\AndroidManifest.xml:8:5-67
+MERGED from [com.google.firebase:firebase-installations:19.1.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\0a3119d072730fa4df50e76972cfa954\workspace\transformed\firebase-installations-19.1.0\AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\c82290733daa76d736b8cc3133cab9cc\workspace\transformed\play-services-measurement-sdk-api-23.2.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\c82290733daa76d736b8cc3133cab9cc\workspace\transformed\play-services-measurement-sdk-api-23.2.0\AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from C:\Users\qaisa\Desktop\NJE\semester6\Developing Mobile App 2\mobile-applications-assignment\app\src\main\AndroidManifest.xml:5:22-64
+application
+ADDED from C:\Users\qaisa\Desktop\NJE\semester6\Developing Mobile App 2\mobile-applications-assignment\app\src\main\AndroidManifest.xml:7:5-39:19
+INJECTED from C:\Users\qaisa\Desktop\NJE\semester6\Developing Mobile App 2\mobile-applications-assignment\app\src\main\AndroidManifest.xml:7:5-39:19
+MERGED from [com.google.android.material:material:1.13.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\f626a89d07d366d12ed2b2aef18d76ab\workspace\transformed\material-1.13.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.13.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\f626a89d07d366d12ed2b2aef18d76ab\workspace\transformed\material-1.13.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\6820c67a871464da84495261dedffb1f\workspace\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\6820c67a871464da84495261dedffb1f\workspace\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\1a1b1621c4ad18f67de4ab59fb909134\workspace\transformed\firebase-auth-24.0.1\AndroidManifest.xml:28:5-73:19
+MERGED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\1a1b1621c4ad18f67de4ab59fb909134\workspace\transformed\firebase-auth-24.0.1\AndroidManifest.xml:28:5-73:19
+MERGED from [androidx.credentials:credentials-play-services-auth:1.6.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\3c7c34a4caed5a853463af417ffd76c1\workspace\transformed\credentials-play-services-auth-1.6.0\AndroidManifest.xml:23:5-50:19
+MERGED from [androidx.credentials:credentials-play-services-auth:1.6.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\3c7c34a4caed5a853463af417ffd76c1\workspace\transformed\credentials-play-services-auth-1.6.0\AndroidManifest.xml:23:5-50:19
+MERGED from [com.google.android.gms:play-services-auth:21.1.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\9235d10000859d6124aff805c54d1a3a\workspace\transformed\play-services-auth-21.1.1\AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-auth:21.1.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\9235d10000859d6124aff805c54d1a3a\workspace\transformed\play-services-auth-21.1.1\AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\d889028d80925856eb30e645c7c06429\workspace\transformed\firebase-appcheck-interop-17.0.0\AndroidManifest.xml:23:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\d889028d80925856eb30e645c7c06429\workspace\transformed\firebase-appcheck-interop-17.0.0\AndroidManifest.xml:23:5-20
+MERGED from [com.google.android.gms:play-services-auth-blockstore:16.4.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\b30f3d08e63e220f54d5589b4cc7f723\workspace\transformed\play-services-auth-blockstore-16.4.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-auth-blockstore:16.4.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\b30f3d08e63e220f54d5589b4cc7f723\workspace\transformed\play-services-auth-blockstore-16.4.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-fido:21.0.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\824b9687857fcf070b5a9b78dc9d2344\workspace\transformed\play-services-fido-21.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-fido:21.0.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\824b9687857fcf070b5a9b78dc9d2344\workspace\transformed\play-services-fido-21.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-analytics:23.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\ec70e7dda8a7e0125f84fd023a00f7d1\workspace\transformed\firebase-analytics-23.2.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:23.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\ec70e7dda8a7e0125f84fd023a00f7d1\workspace\transformed\firebase-analytics-23.2.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\fed244dc18683ef0d7cc5fe85451be2f\workspace\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\fed244dc18683ef0d7cc5fe85451be2f\workspace\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:23.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\9f394fafcbf4161fa16eaca24c664c0f\workspace\transformed\play-services-measurement-sdk-23.2.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:23.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\9f394fafcbf4161fa16eaca24c664c0f\workspace\transformed\play-services-measurement-sdk-23.2.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\7b774ade1b64c5065a04c12e11754007\workspace\transformed\play-services-measurement-impl-23.2.0\AndroidManifest.xml:29:5-30:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\7b774ade1b64c5065a04c12e11754007\workspace\transformed\play-services-measurement-impl-23.2.0\AndroidManifest.xml:29:5-30:19
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\c67a8497d81c281756ff72ba7d4d4f7e\workspace\transformed\play-services-base-18.5.0\AndroidManifest.xml:4:5-6:19
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\c67a8497d81c281756ff72ba7d4d4f7e\workspace\transformed\play-services-base-18.5.0\AndroidManifest.xml:4:5-6:19
+MERGED from [com.google.android.play:integrity:1.3.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\7249bd9f7500e7b212102dd061212350\workspace\transformed\integrity-1.3.0\AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.play:integrity:1.3.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\7249bd9f7500e7b212102dd061212350\workspace\transformed\integrity-1.3.0\AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\b9640bc548168c5263bd1b8604633498\workspace\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\b9640bc548168c5263bd1b8604633498\workspace\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-measurement-api:23.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\7bd0d0ccd0b55f9e0cac6fb671e91dc0\workspace\transformed\play-services-measurement-api-23.2.0\AndroidManifest.xml:29:5-37:19
+MERGED from [com.google.android.gms:play-services-measurement-api:23.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\7bd0d0ccd0b55f9e0cac6fb671e91dc0\workspace\transformed\play-services-measurement-api-23.2.0\AndroidManifest.xml:29:5-37:19
+MERGED from [com.google.firebase:firebase-installations:19.1.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\0a3119d072730fa4df50e76972cfa954\workspace\transformed\firebase-installations-19.1.0\AndroidManifest.xml:11:5-22:19
+MERGED from [com.google.firebase:firebase-installations:19.1.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\0a3119d072730fa4df50e76972cfa954\workspace\transformed\firebase-installations-19.1.0\AndroidManifest.xml:11:5-22:19
+MERGED from [com.google.firebase:firebase-common:22.0.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\0fe548037896b54f9e7c6ff07f93b9f9\workspace\transformed\firebase-common-22.0.1\AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.firebase:firebase-common:22.0.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\0fe548037896b54f9e7c6ff07f93b9f9\workspace\transformed\firebase-common-22.0.1\AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\ba016da6bfa76214eba4f38936f742a1\workspace\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\ba016da6bfa76214eba4f38936f742a1\workspace\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:23.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\2aca9b70d2e1555267a04a9046aae22e\workspace\transformed\play-services-measurement-base-23.2.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:23.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\2aca9b70d2e1555267a04a9046aae22e\workspace\transformed\play-services-measurement-base-23.2.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\de421efe7ab4ab6fa7b8c36002672bc8\workspace\transformed\play-services-stats-17.0.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\de421efe7ab4ab6fa7b8c36002672bc8\workspace\transformed\play-services-stats-17.0.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\751ce98817ada2d000d6cc6d3ba55c99\workspace\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\751ce98817ada2d000d6cc6d3ba55c99\workspace\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\0070737e97c522be186cf473a2cabbba\workspace\transformed\ads-adservices-1.1.0-beta11\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\0070737e97c522be186cf473a2cabbba\workspace\transformed\ads-adservices-1.1.0-beta11\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\32568942e6b2900bdd564409715db6b0\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\32568942e6b2900bdd564409715db6b0\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.15.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\b16fe81cae4a41e0e92eeda1da6fbab5\workspace\transformed\core-1.15.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.15.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\b16fe81cae4a41e0e92eeda1da6fbab5\workspace\transformed\core-1.15.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\be09869a0190f326994e83db0d14b4a9\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\be09869a0190f326994e83db0d14b4a9\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.android.gms:play-services-tasks:18.4.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\5973f0c55d444257a2158880bddbab41\workspace\transformed\play-services-tasks-18.4.0\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.4.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\5973f0c55d444257a2158880bddbab41\workspace\transformed\play-services-tasks-18.4.0\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.9.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\169c4c4719fa968463c8e25b30417f79\workspace\transformed\play-services-basement-18.9.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.9.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\169c4c4719fa968463c8e25b30417f79\workspace\transformed\play-services-basement-18.9.0\AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\adc7178af4cd7b150ab3b68c3ae2a807\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\adc7178af4cd7b150ab3b68c3ae2a807\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\9e77413bef3e3bb862409fba617d293b\workspace\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\9e77413bef3e3bb862409fba617d293b\workspace\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\40a97cd2186b2813b2bac4f60f936167\workspace\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\40a97cd2186b2813b2bac4f60f936167\workspace\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\dea496344a33e84752ef781100578242\workspace\transformed\core-common-2.0.3\AndroidManifest.xml:11:5-19:19
+MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\dea496344a33e84752ef781100578242\workspace\transformed\core-common-2.0.3\AndroidManifest.xml:11:5-19:19
+	android:extractNativeLibs
+		INJECTED from C:\Users\qaisa\Desktop\NJE\semester6\Developing Mobile App 2\mobile-applications-assignment\app\src\main\AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.15.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\b16fe81cae4a41e0e92eeda1da6fbab5\workspace\transformed\core-1.15.0\AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from C:\Users\qaisa\Desktop\NJE\semester6\Developing Mobile App 2\mobile-applications-assignment\app\src\main\AndroidManifest.xml:14:9-35
+	android:label
+		ADDED from C:\Users\qaisa\Desktop\NJE\semester6\Developing Mobile App 2\mobile-applications-assignment\app\src\main\AndroidManifest.xml:12:9-41
+	android:fullBackupContent
+		ADDED from C:\Users\qaisa\Desktop\NJE\semester6\Developing Mobile App 2\mobile-applications-assignment\app\src\main\AndroidManifest.xml:10:9-54
+	android:roundIcon
+		ADDED from C:\Users\qaisa\Desktop\NJE\semester6\Developing Mobile App 2\mobile-applications-assignment\app\src\main\AndroidManifest.xml:13:9-54
+	android:icon
+		ADDED from C:\Users\qaisa\Desktop\NJE\semester6\Developing Mobile App 2\mobile-applications-assignment\app\src\main\AndroidManifest.xml:11:9-43
+	android:allowBackup
+		ADDED from C:\Users\qaisa\Desktop\NJE\semester6\Developing Mobile App 2\mobile-applications-assignment\app\src\main\AndroidManifest.xml:8:9-35
+	android:theme
+		ADDED from C:\Users\qaisa\Desktop\NJE\semester6\Developing Mobile App 2\mobile-applications-assignment\app\src\main\AndroidManifest.xml:15:9-66
+	android:dataExtractionRules
+		ADDED from C:\Users\qaisa\Desktop\NJE\semester6\Developing Mobile App 2\mobile-applications-assignment\app\src\main\AndroidManifest.xml:9:9-65
+activity#com.mobile.assignment.SplashActivity
+ADDED from C:\Users\qaisa\Desktop\NJE\semester6\Developing Mobile App 2\mobile-applications-assignment\app\src\main\AndroidManifest.xml:17:9-25:20
+	android:exported
+		ADDED from C:\Users\qaisa\Desktop\NJE\semester6\Developing Mobile App 2\mobile-applications-assignment\app\src\main\AndroidManifest.xml:19:13-36
+	android:name
+		ADDED from C:\Users\qaisa\Desktop\NJE\semester6\Developing Mobile App 2\mobile-applications-assignment\app\src\main\AndroidManifest.xml:18:13-43
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\qaisa\Desktop\NJE\semester6\Developing Mobile App 2\mobile-applications-assignment\app\src\main\AndroidManifest.xml:20:13-24:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\qaisa\Desktop\NJE\semester6\Developing Mobile App 2\mobile-applications-assignment\app\src\main\AndroidManifest.xml:21:17-69
+	android:name
+		ADDED from C:\Users\qaisa\Desktop\NJE\semester6\Developing Mobile App 2\mobile-applications-assignment\app\src\main\AndroidManifest.xml:21:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\qaisa\Desktop\NJE\semester6\Developing Mobile App 2\mobile-applications-assignment\app\src\main\AndroidManifest.xml:23:17-77
+	android:name
+		ADDED from C:\Users\qaisa\Desktop\NJE\semester6\Developing Mobile App 2\mobile-applications-assignment\app\src\main\AndroidManifest.xml:23:27-74
+activity#com.mobile.assignment.Register
+ADDED from C:\Users\qaisa\Desktop\NJE\semester6\Developing Mobile App 2\mobile-applications-assignment\app\src\main\AndroidManifest.xml:27:9-29:40
+	android:exported
+		ADDED from C:\Users\qaisa\Desktop\NJE\semester6\Developing Mobile App 2\mobile-applications-assignment\app\src\main\AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from C:\Users\qaisa\Desktop\NJE\semester6\Developing Mobile App 2\mobile-applications-assignment\app\src\main\AndroidManifest.xml:28:13-37
+activity#com.mobile.assignment.Login
+ADDED from C:\Users\qaisa\Desktop\NJE\semester6\Developing Mobile App 2\mobile-applications-assignment\app\src\main\AndroidManifest.xml:31:9-33:40
+	android:exported
+		ADDED from C:\Users\qaisa\Desktop\NJE\semester6\Developing Mobile App 2\mobile-applications-assignment\app\src\main\AndroidManifest.xml:33:13-37
+	android:name
+		ADDED from C:\Users\qaisa\Desktop\NJE\semester6\Developing Mobile App 2\mobile-applications-assignment\app\src\main\AndroidManifest.xml:32:13-34
+activity#com.mobile.assignment.MainActivity
+ADDED from C:\Users\qaisa\Desktop\NJE\semester6\Developing Mobile App 2\mobile-applications-assignment\app\src\main\AndroidManifest.xml:35:9-37:40
+	android:exported
+		ADDED from C:\Users\qaisa\Desktop\NJE\semester6\Developing Mobile App 2\mobile-applications-assignment\app\src\main\AndroidManifest.xml:37:13-37
+	android:name
+		ADDED from C:\Users\qaisa\Desktop\NJE\semester6\Developing Mobile App 2\mobile-applications-assignment\app\src\main\AndroidManifest.xml:36:13-41
+uses-sdk
+INJECTED from C:\Users\qaisa\Desktop\NJE\semester6\Developing Mobile App 2\mobile-applications-assignment\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\qaisa\Desktop\NJE\semester6\Developing Mobile App 2\mobile-applications-assignment\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\qaisa\Desktop\NJE\semester6\Developing Mobile App 2\mobile-applications-assignment\app\src\main\AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.13.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\f626a89d07d366d12ed2b2aef18d76ab\workspace\transformed\material-1.13.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.13.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\f626a89d07d366d12ed2b2aef18d76ab\workspace\transformed\material-1.13.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\6820c67a871464da84495261dedffb1f\workspace\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\6820c67a871464da84495261dedffb1f\workspace\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.7.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\a671be363f3574a97df84bf15df22d95\workspace\transformed\appcompat-resources-1.7.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\a671be363f3574a97df84bf15df22d95\workspace\transformed\appcompat-resources-1.7.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\1a1b1621c4ad18f67de4ab59fb909134\workspace\transformed\firebase-auth-24.0.1\AndroidManifest.xml:21:5-23:151
+MERGED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\1a1b1621c4ad18f67de4ab59fb909134\workspace\transformed\firebase-auth-24.0.1\AndroidManifest.xml:21:5-23:151
+MERGED from [androidx.credentials:credentials-play-services-auth:1.6.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\3c7c34a4caed5a853463af417ffd76c1\workspace\transformed\credentials-play-services-auth-1.6.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.credentials:credentials-play-services-auth:1.6.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\3c7c34a4caed5a853463af417ffd76c1\workspace\transformed\credentials-play-services-auth-1.6.0\AndroidManifest.xml:21:5-44
+MERGED from [com.google.android.libraries.identity.googleid:googleid:1.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\e458f74853edee1838f69f97b5346073\workspace\transformed\googleid-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.libraries.identity.googleid:googleid:1.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\e458f74853edee1838f69f97b5346073\workspace\transformed\googleid-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.credentials:credentials:1.6.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\de795f970fddf36c35b20dc4198e80ea\workspace\transformed\credentials-1.6.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.credentials:credentials:1.6.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\de795f970fddf36c35b20dc4198e80ea\workspace\transformed\credentials-1.6.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.biometric:biometric:1.1.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\e6723d3fe8c304906ae869e873085f29\workspace\transformed\biometric-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.biometric:biometric:1.1.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\e6723d3fe8c304906ae869e873085f29\workspace\transformed\biometric-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.7.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\17ee1aefae016bda1b29b033352c360c\workspace\transformed\appcompat-1.7.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\17ee1aefae016bda1b29b033352c360c\workspace\transformed\appcompat-1.7.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\1f6d6ab4ae487bdbbb760066bf1c9eea\workspace\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\1f6d6ab4ae487bdbbb760066bf1c9eea\workspace\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-auth:21.1.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\9235d10000859d6124aff805c54d1a3a\workspace\transformed\play-services-auth-21.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:21.1.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\9235d10000859d6124aff805c54d1a3a\workspace\transformed\play-services-auth-21.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\8e68020b9a4b178352763a96bd0d7486\workspace\transformed\play-services-auth-api-phone-18.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\8e68020b9a4b178352763a96bd0d7486\workspace\transformed\play-services-auth-api-phone-18.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\d889028d80925856eb30e645c7c06429\workspace\transformed\firebase-appcheck-interop-17.0.0\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\d889028d80925856eb30e645c7c06429\workspace\transformed\firebase-appcheck-interop-17.0.0\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.gms:play-services-auth-blockstore:16.4.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\b30f3d08e63e220f54d5589b4cc7f723\workspace\transformed\play-services-auth-blockstore-16.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-blockstore:16.4.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\b30f3d08e63e220f54d5589b4cc7f723\workspace\transformed\play-services-auth-blockstore-16.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-fido:21.0.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\824b9687857fcf070b5a9b78dc9d2344\workspace\transformed\play-services-fido-21.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-fido:21.0.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\824b9687857fcf070b5a9b78dc9d2344\workspace\transformed\play-services-fido-21.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-identity-credentials:16.0.0-alpha08] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\55ac513456f6395a44d243301860c188\workspace\transformed\play-services-identity-credentials-16.0.0-alpha08\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-identity-credentials:16.0.0-alpha08] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\55ac513456f6395a44d243301860c188\workspace\transformed\play-services-identity-credentials-16.0.0-alpha08\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.10] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\f52745ef710efd709132a13d7c69ff47\workspace\transformed\play-services-auth-base-18.0.10\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.10] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\f52745ef710efd709132a13d7c69ff47\workspace\transformed\play-services-auth-base-18.0.10\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:23.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\ec70e7dda8a7e0125f84fd023a00f7d1\workspace\transformed\firebase-analytics-23.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:23.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\ec70e7dda8a7e0125f84fd023a00f7d1\workspace\transformed\firebase-analytics-23.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\fed244dc18683ef0d7cc5fe85451be2f\workspace\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\fed244dc18683ef0d7cc5fe85451be2f\workspace\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:23.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\9f394fafcbf4161fa16eaca24c664c0f\workspace\transformed\play-services-measurement-sdk-23.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:23.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\9f394fafcbf4161fa16eaca24c664c0f\workspace\transformed\play-services-measurement-sdk-23.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\7b774ade1b64c5065a04c12e11754007\workspace\transformed\play-services-measurement-impl-23.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\7b774ade1b64c5065a04c12e11754007\workspace\transformed\play-services-measurement-impl-23.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\c67a8497d81c281756ff72ba7d4d4f7e\workspace\transformed\play-services-base-18.5.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\c67a8497d81c281756ff72ba7d4d4f7e\workspace\transformed\play-services-base-18.5.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.recaptcha:recaptcha:18.6.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\784034ee8da62d0d7fcdc35faea8796a\workspace\transformed\recaptcha-18.6.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.recaptcha:recaptcha:18.6.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\784034ee8da62d0d7fcdc35faea8796a\workspace\transformed\recaptcha-18.6.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.play:integrity:1.3.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\7249bd9f7500e7b212102dd061212350\workspace\transformed\integrity-1.3.0\AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.play:integrity:1.3.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\7249bd9f7500e7b212102dd061212350\workspace\transformed\integrity-1.3.0\AndroidManifest.xml:4:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\b9640bc548168c5263bd1b8604633498\workspace\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\b9640bc548168c5263bd1b8604633498\workspace\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:23.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\7bd0d0ccd0b55f9e0cac6fb671e91dc0\workspace\transformed\play-services-measurement-api-23.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:23.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\7bd0d0ccd0b55f9e0cac6fb671e91dc0\workspace\transformed\play-services-measurement-api-23.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-installations:19.1.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\0a3119d072730fa4df50e76972cfa954\workspace\transformed\firebase-installations-19.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations:19.1.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\0a3119d072730fa4df50e76972cfa954\workspace\transformed\firebase-installations-19.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:22.0.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\0fe548037896b54f9e7c6ff07f93b9f9\workspace\transformed\firebase-common-22.0.1\AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-common:22.0.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\0fe548037896b54f9e7c6ff07f93b9f9\workspace\transformed\firebase-common-22.0.1\AndroidManifest.xml:19:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\ba016da6bfa76214eba4f38936f742a1\workspace\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\ba016da6bfa76214eba4f38936f742a1\workspace\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\c82290733daa76d736b8cc3133cab9cc\workspace\transformed\play-services-measurement-sdk-api-23.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\c82290733daa76d736b8cc3133cab9cc\workspace\transformed\play-services-measurement-sdk-api-23.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:23.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\2aca9b70d2e1555267a04a9046aae22e\workspace\transformed\play-services-measurement-base-23.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:23.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\2aca9b70d2e1555267a04a9046aae22e\workspace\transformed\play-services-measurement-base-23.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\de421efe7ab4ab6fa7b8c36002672bc8\workspace\transformed\play-services-stats-17.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\de421efe7ab4ab6fa7b8c36002672bc8\workspace\transformed\play-services-stats-17.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\751ce98817ada2d000d6cc6d3ba55c99\workspace\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\751ce98817ada2d000d6cc6d3ba55c99\workspace\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-core-android:1.1.7] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\2bed6ad98729fdce1d0183ad7a3e2446\workspace\transformed\datastore-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-core-android:1.1.7] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\2bed6ad98729fdce1d0183ad7a3e2446\workspace\transformed\datastore-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-preferences-core-android:1.1.7] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\4234f8f16c0deb72b97acfa6e4f17556\workspace\transformed\datastore-preferences-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-preferences-core-android:1.1.7] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\4234f8f16c0deb72b97acfa6e4f17556\workspace\transformed\datastore-preferences-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-android:1.1.7] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\6dcc7f27be848dbb24fed0a12f90ea10\workspace\transformed\datastore-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-android:1.1.7] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\6dcc7f27be848dbb24fed0a12f90ea10\workspace\transformed\datastore-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.7] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\1681bbcd9097bd2120e7eab6fdbe3328\workspace\transformed\datastore-preferences-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.7] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\1681bbcd9097bd2120e7eab6fdbe3328\workspace\transformed\datastore-preferences-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.privacysandbox.ads:ads-adservices-java:1.1.0-beta11] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\f02d2ab27a6ed20cc2c596ec9a38a2cd\workspace\transformed\ads-adservices-java-1.1.0-beta11\AndroidManifest.xml:5:5-44
+MERGED from [androidx.privacysandbox.ads:ads-adservices-java:1.1.0-beta11] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\f02d2ab27a6ed20cc2c596ec9a38a2cd\workspace\transformed\ads-adservices-java-1.1.0-beta11\AndroidManifest.xml:5:5-44
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\0070737e97c522be186cf473a2cabbba\workspace\transformed\ads-adservices-1.1.0-beta11\AndroidManifest.xml:20:5-44
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\0070737e97c522be186cf473a2cabbba\workspace\transformed\ads-adservices-1.1.0-beta11\AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\09d5ec5d8aae05d194e2c1f9bc848547\workspace\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\09d5ec5d8aae05d194e2c1f9bc848547\workspace\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\32568942e6b2900bdd564409715db6b0\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\32568942e6b2900bdd564409715db6b0\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\b8dae20c763a4b6ad8b76eb1ae528344\workspace\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\b8dae20c763a4b6ad8b76eb1ae528344\workspace\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\762418c0b7190bebfb5b1df9341c0e04\workspace\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\762418c0b7190bebfb5b1df9341c0e04\workspace\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\fe4b7da723aa488ca700c287e6aeea4e\workspace\transformed\transition-1.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\fe4b7da723aa488ca700c287e6aeea4e\workspace\transformed\transition-1.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.1.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\0116eed4dbfeea6429c8d199bb58801f\workspace\transformed\dynamicanimation-1.1.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.1.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\0116eed4dbfeea6429c8d199bb58801f\workspace\transformed\dynamicanimation-1.1.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\5bc8f0bfefd5fa823d6da17edea4ea42\workspace\transformed\recyclerview-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\5bc8f0bfefd5fa823d6da17edea4ea42\workspace\transformed\recyclerview-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\b013358604b28f9a49fb8a6dbdf7213d\workspace\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\b013358604b28f9a49fb8a6dbdf7213d\workspace\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\7d50755e82cbdadbd3e54d623836529b\workspace\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\7d50755e82cbdadbd3e54d623836529b\workspace\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\43ec590103169d6c6f47ad5e4e22b6ef\workspace\transformed\browser-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\43ec590103169d6c6f47ad5e4e22b6ef\workspace\transformed\browser-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\2338e25d0bf529e190c9eedaa226ccc1\workspace\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\2338e25d0bf529e190c9eedaa226ccc1\workspace\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\18eecb3ab7e23f28cc059410aeb095f1\workspace\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\18eecb3ab7e23f28cc059410aeb095f1\workspace\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.graphics:graphics-shapes-android:1.0.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\5b0b0596b26ca0e59386d24ddbb94ba5\workspace\transformed\graphics-shapes-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.graphics:graphics-shapes-android:1.0.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\5b0b0596b26ca0e59386d24ddbb94ba5\workspace\transformed\graphics-shapes-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.15.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\fcf585746d570c65446191c8b622402f\workspace\transformed\core-ktx-1.15.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.15.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\fcf585746d570c65446191c8b622402f\workspace\transformed\core-ktx-1.15.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\9d789fc86f701a80a78c02a58c20ec3d\workspace\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\9d789fc86f701a80a78c02a58c20ec3d\workspace\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.1.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\95e29f94ef4c359f82c00dac40bb9f7f\workspace\transformed\loader-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.1.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\95e29f94ef4c359f82c00dac40bb9f7f\workspace\transformed\loader-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.15.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\b16fe81cae4a41e0e92eeda1da6fbab5\workspace\transformed\core-1.15.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.15.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\b16fe81cae4a41e0e92eeda1da6fbab5\workspace\transformed\core-1.15.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\45149b73c5d066095c9a1dc5750cdacf\workspace\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\45149b73c5d066095c9a1dc5750cdacf\workspace\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\be09869a0190f326994e83db0d14b4a9\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\be09869a0190f326994e83db0d14b4a9\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\91b82318baa3215ceeb2d0595aedc94c\workspace\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\91b82318baa3215ceeb2d0595aedc94c\workspace\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\7bd1afa55b74b0a6df6bbbc517fca3fa\workspace\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\7bd1afa55b74b0a6df6bbbc517fca3fa\workspace\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\0006a568b797a2560bf8b1677a916e6e\workspace\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\0006a568b797a2560bf8b1677a916e6e\workspace\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\7ee3afe7f556d0f56eeaf8b6900d7599\workspace\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\7ee3afe7f556d0f56eeaf8b6900d7599\workspace\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.3.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\acdb1235ed1a0ad106819229013d3dff\workspace\transformed\firebase-installations-interop-17.3.0\AndroidManifest.xml:17:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.3.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\acdb1235ed1a0ad106819229013d3dff\workspace\transformed\firebase-installations-interop-17.3.0\AndroidManifest.xml:17:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.4.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\5973f0c55d444257a2158880bddbab41\workspace\transformed\play-services-tasks-18.4.0\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.4.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\5973f0c55d444257a2158880bddbab41\workspace\transformed\play-services-tasks-18.4.0\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.9.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\169c4c4719fa968463c8e25b30417f79\workspace\transformed\play-services-basement-18.9.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.9.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\169c4c4719fa968463c8e25b30417f79\workspace\transformed\play-services-basement-18.9.0\AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.5.7] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\0586a4e6d87075a4dd0f32462386ec91\workspace\transformed\fragment-1.5.7\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.7] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\0586a4e6d87075a4dd0f32462386ec91\workspace\transformed\fragment-1.5.7\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\5cabb23341e1aa3e24da1dbd47b89401\workspace\transformed\activity-1.8.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\5cabb23341e1aa3e24da1dbd47b89401\workspace\transformed\activity-1.8.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\c6e7000c6855457cfba2a8f4005dbe9a\workspace\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\c6e7000c6855457cfba2a8f4005dbe9a\workspace\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\adc7178af4cd7b150ab3b68c3ae2a807\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\adc7178af4cd7b150ab3b68c3ae2a807\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\283fa528c960666efe48bdcbec7608e3\workspace\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\283fa528c960666efe48bdcbec7608e3\workspace\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\98c24ab00d9c5fb616b2034624768da3\workspace\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\98c24ab00d9c5fb616b2034624768da3\workspace\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\9e77413bef3e3bb862409fba617d293b\workspace\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\9e77413bef3e3bb862409fba617d293b\workspace\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\8caf7ad568b39060ea5b192d05606c7e\workspace\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\8caf7ad568b39060ea5b192d05606c7e\workspace\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:19.0.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\e3bf8fd65bfb16c27e3f0a484dfbf744\workspace\transformed\firebase-components-19.0.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-components:19.0.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\e3bf8fd65bfb16c27e3f0a484dfbf744\workspace\transformed\firebase-components-19.0.0\AndroidManifest.xml:18:5-44
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\e30411d926ce3ee57e6461d55ad06a91\workspace\transformed\tracing-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\e30411d926ce3ee57e6461d55ad06a91\workspace\transformed\tracing-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\40a97cd2186b2813b2bac4f60f936167\workspace\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\40a97cd2186b2813b2bac4f60f936167\workspace\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\413a1700a10ecd13ea3a146951ba407d\workspace\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\413a1700a10ecd13ea3a146951ba407d\workspace\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\38108e1b38fdfea9f6623b0dfbcc461d\workspace\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\38108e1b38fdfea9f6623b0dfbcc461d\workspace\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\76d0bf00fbebcf71ebeb73faf50d4f63\workspace\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\76d0bf00fbebcf71ebeb73faf50d4f63\workspace\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\3a360431e048c6b242195c8c5e3eb182\workspace\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\3a360431e048c6b242195c8c5e3eb182\workspace\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\dea496344a33e84752ef781100578242\workspace\transformed\core-common-2.0.3\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\dea496344a33e84752ef781100578242\workspace\transformed\core-common-2.0.3\AndroidManifest.xml:7:5-9:41
+	tools:overrideLibrary
+		ADDED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\1a1b1621c4ad18f67de4ab59fb909134\workspace\transformed\firebase-auth-24.0.1\AndroidManifest.xml:23:9-148
+	android:targetSdkVersion
+		INJECTED from C:\Users\qaisa\Desktop\NJE\semester6\Developing Mobile App 2\mobile-applications-assignment\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\qaisa\Desktop\NJE\semester6\Developing Mobile App 2\mobile-applications-assignment\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\1a1b1621c4ad18f67de4ab59fb909134\workspace\transformed\firebase-auth-24.0.1\AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\fed244dc18683ef0d7cc5fe85451be2f\workspace\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\fed244dc18683ef0d7cc5fe85451be2f\workspace\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\7b774ade1b64c5065a04c12e11754007\workspace\transformed\play-services-measurement-impl-23.2.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\7b774ade1b64c5065a04c12e11754007\workspace\transformed\play-services-measurement-impl-23.2.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.recaptcha:recaptcha:18.6.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\784034ee8da62d0d7fcdc35faea8796a\workspace\transformed\recaptcha-18.6.1\AndroidManifest.xml:8:5-79
+MERGED from [com.google.android.recaptcha:recaptcha:18.6.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\784034ee8da62d0d7fcdc35faea8796a\workspace\transformed\recaptcha-18.6.1\AndroidManifest.xml:8:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:23.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\7bd0d0ccd0b55f9e0cac6fb671e91dc0\workspace\transformed\play-services-measurement-api-23.2.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:23.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\7bd0d0ccd0b55f9e0cac6fb671e91dc0\workspace\transformed\play-services-measurement-api-23.2.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-installations:19.1.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\0a3119d072730fa4df50e76972cfa954\workspace\transformed\firebase-installations-19.1.0\AndroidManifest.xml:7:5-79
+MERGED from [com.google.firebase:firebase-installations:19.1.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\0a3119d072730fa4df50e76972cfa954\workspace\transformed\firebase-installations-19.1.0\AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\c82290733daa76d736b8cc3133cab9cc\workspace\transformed\play-services-measurement-sdk-api-23.2.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\c82290733daa76d736b8cc3133cab9cc\workspace\transformed\play-services-measurement-sdk-api-23.2.0\AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\1a1b1621c4ad18f67de4ab59fb909134\workspace\transformed\firebase-auth-24.0.1\AndroidManifest.xml:26:22-76
+activity#com.google.firebase.auth.internal.GenericIdpActivity
+ADDED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\1a1b1621c4ad18f67de4ab59fb909134\workspace\transformed\firebase-auth-24.0.1\AndroidManifest.xml:29:9-46:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\1a1b1621c4ad18f67de4ab59fb909134\workspace\transformed\firebase-auth-24.0.1\AndroidManifest.xml:31:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\1a1b1621c4ad18f67de4ab59fb909134\workspace\transformed\firebase-auth-24.0.1\AndroidManifest.xml:33:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\1a1b1621c4ad18f67de4ab59fb909134\workspace\transformed\firebase-auth-24.0.1\AndroidManifest.xml:32:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\1a1b1621c4ad18f67de4ab59fb909134\workspace\transformed\firebase-auth-24.0.1\AndroidManifest.xml:34:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\1a1b1621c4ad18f67de4ab59fb909134\workspace\transformed\firebase-auth-24.0.1\AndroidManifest.xml:30:13-80
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:genericidp
+ADDED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\1a1b1621c4ad18f67de4ab59fb909134\workspace\transformed\firebase-auth-24.0.1\AndroidManifest.xml:35:13-45:29
+action#android.intent.action.VIEW
+ADDED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\1a1b1621c4ad18f67de4ab59fb909134\workspace\transformed\firebase-auth-24.0.1\AndroidManifest.xml:36:17-69
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\1a1b1621c4ad18f67de4ab59fb909134\workspace\transformed\firebase-auth-24.0.1\AndroidManifest.xml:36:25-66
+category#android.intent.category.DEFAULT
+ADDED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\1a1b1621c4ad18f67de4ab59fb909134\workspace\transformed\firebase-auth-24.0.1\AndroidManifest.xml:38:17-76
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\1a1b1621c4ad18f67de4ab59fb909134\workspace\transformed\firebase-auth-24.0.1\AndroidManifest.xml:38:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\1a1b1621c4ad18f67de4ab59fb909134\workspace\transformed\firebase-auth-24.0.1\AndroidManifest.xml:39:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\1a1b1621c4ad18f67de4ab59fb909134\workspace\transformed\firebase-auth-24.0.1\AndroidManifest.xml:39:27-75
+data
+ADDED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\1a1b1621c4ad18f67de4ab59fb909134\workspace\transformed\firebase-auth-24.0.1\AndroidManifest.xml:41:17-44:51
+	android:path
+		ADDED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\1a1b1621c4ad18f67de4ab59fb909134\workspace\transformed\firebase-auth-24.0.1\AndroidManifest.xml:43:21-37
+	android:host
+		ADDED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\1a1b1621c4ad18f67de4ab59fb909134\workspace\transformed\firebase-auth-24.0.1\AndroidManifest.xml:42:21-49
+	android:scheme
+		ADDED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\1a1b1621c4ad18f67de4ab59fb909134\workspace\transformed\firebase-auth-24.0.1\AndroidManifest.xml:44:21-48
+activity#com.google.firebase.auth.internal.RecaptchaActivity
+ADDED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\1a1b1621c4ad18f67de4ab59fb909134\workspace\transformed\firebase-auth-24.0.1\AndroidManifest.xml:47:9-64:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\1a1b1621c4ad18f67de4ab59fb909134\workspace\transformed\firebase-auth-24.0.1\AndroidManifest.xml:49:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\1a1b1621c4ad18f67de4ab59fb909134\workspace\transformed\firebase-auth-24.0.1\AndroidManifest.xml:51:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\1a1b1621c4ad18f67de4ab59fb909134\workspace\transformed\firebase-auth-24.0.1\AndroidManifest.xml:50:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\1a1b1621c4ad18f67de4ab59fb909134\workspace\transformed\firebase-auth-24.0.1\AndroidManifest.xml:52:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\1a1b1621c4ad18f67de4ab59fb909134\workspace\transformed\firebase-auth-24.0.1\AndroidManifest.xml:48:13-79
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:recaptcha
+ADDED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\1a1b1621c4ad18f67de4ab59fb909134\workspace\transformed\firebase-auth-24.0.1\AndroidManifest.xml:53:13-63:29
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\1a1b1621c4ad18f67de4ab59fb909134\workspace\transformed\firebase-auth-24.0.1\AndroidManifest.xml:66:9-72:19
+MERGED from [com.google.android.gms:play-services-measurement-api:23.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\7bd0d0ccd0b55f9e0cac6fb671e91dc0\workspace\transformed\play-services-measurement-api-23.2.0\AndroidManifest.xml:30:9-36:19
+MERGED from [com.google.android.gms:play-services-measurement-api:23.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\7bd0d0ccd0b55f9e0cac6fb671e91dc0\workspace\transformed\play-services-measurement-api-23.2.0\AndroidManifest.xml:30:9-36:19
+MERGED from [com.google.firebase:firebase-installations:19.1.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\0a3119d072730fa4df50e76972cfa954\workspace\transformed\firebase-installations-19.1.0\AndroidManifest.xml:12:9-21:19
+MERGED from [com.google.firebase:firebase-installations:19.1.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\0a3119d072730fa4df50e76972cfa954\workspace\transformed\firebase-installations-19.1.0\AndroidManifest.xml:12:9-21:19
+MERGED from [com.google.firebase:firebase-common:22.0.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\0fe548037896b54f9e7c6ff07f93b9f9\workspace\transformed\firebase-common-22.0.1\AndroidManifest.xml:30:9-38:19
+MERGED from [com.google.firebase:firebase-common:22.0.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\0fe548037896b54f9e7c6ff07f93b9f9\workspace\transformed\firebase-common-22.0.1\AndroidManifest.xml:30:9-38:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\1a1b1621c4ad18f67de4ab59fb909134\workspace\transformed\firebase-auth-24.0.1\AndroidManifest.xml:68:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:22.0.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\0fe548037896b54f9e7c6ff07f93b9f9\workspace\transformed\firebase-common-22.0.1\AndroidManifest.xml:34:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:22.0.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\0fe548037896b54f9e7c6ff07f93b9f9\workspace\transformed\firebase-common-22.0.1\AndroidManifest.xml:32:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\1a1b1621c4ad18f67de4ab59fb909134\workspace\transformed\firebase-auth-24.0.1\AndroidManifest.xml:67:13-84
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\1a1b1621c4ad18f67de4ab59fb909134\workspace\transformed\firebase-auth-24.0.1\AndroidManifest.xml:69:13-71:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\1a1b1621c4ad18f67de4ab59fb909134\workspace\transformed\firebase-auth-24.0.1\AndroidManifest.xml:71:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\1a1b1621c4ad18f67de4ab59fb909134\workspace\transformed\firebase-auth-24.0.1\AndroidManifest.xml:70:17-109
+service#androidx.credentials.playservices.CredentialProviderMetadataHolder
+ADDED from [androidx.credentials:credentials-play-services-auth:1.6.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\3c7c34a4caed5a853463af417ffd76c1\workspace\transformed\credentials-play-services-auth-1.6.0\AndroidManifest.xml:24:9-32:19
+	android:enabled
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.6.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\3c7c34a4caed5a853463af417ffd76c1\workspace\transformed\credentials-play-services-auth-1.6.0\AndroidManifest.xml:26:13-35
+	android:exported
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.6.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\3c7c34a4caed5a853463af417ffd76c1\workspace\transformed\credentials-play-services-auth-1.6.0\AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.6.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\3c7c34a4caed5a853463af417ffd76c1\workspace\transformed\credentials-play-services-auth-1.6.0\AndroidManifest.xml:28:13-60
+	android:name
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.6.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\3c7c34a4caed5a853463af417ffd76c1\workspace\transformed\credentials-play-services-auth-1.6.0\AndroidManifest.xml:25:13-94
+meta-data#androidx.credentials.CREDENTIAL_PROVIDER_KEY
+ADDED from [androidx.credentials:credentials-play-services-auth:1.6.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\3c7c34a4caed5a853463af417ffd76c1\workspace\transformed\credentials-play-services-auth-1.6.0\AndroidManifest.xml:29:13-31:104
+	android:value
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.6.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\3c7c34a4caed5a853463af417ffd76c1\workspace\transformed\credentials-play-services-auth-1.6.0\AndroidManifest.xml:31:17-101
+	android:name
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.6.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\3c7c34a4caed5a853463af417ffd76c1\workspace\transformed\credentials-play-services-auth-1.6.0\AndroidManifest.xml:30:17-76
+activity#androidx.credentials.playservices.controllers.identityauth.HiddenActivity
+ADDED from [androidx.credentials:credentials-play-services-auth:1.6.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\3c7c34a4caed5a853463af417ffd76c1\workspace\transformed\credentials-play-services-auth-1.6.0\AndroidManifest.xml:34:9-41:20
+	android:fitsSystemWindows
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.6.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\3c7c34a4caed5a853463af417ffd76c1\workspace\transformed\credentials-play-services-auth-1.6.0\AndroidManifest.xml:39:13-45
+	android:enabled
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.6.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\3c7c34a4caed5a853463af417ffd76c1\workspace\transformed\credentials-play-services-auth-1.6.0\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.6.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\3c7c34a4caed5a853463af417ffd76c1\workspace\transformed\credentials-play-services-auth-1.6.0\AndroidManifest.xml:38:13-37
+	android:configChanges
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.6.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\3c7c34a4caed5a853463af417ffd76c1\workspace\transformed\credentials-play-services-auth-1.6.0\AndroidManifest.xml:36:13-87
+	android:theme
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.6.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\3c7c34a4caed5a853463af417ffd76c1\workspace\transformed\credentials-play-services-auth-1.6.0\AndroidManifest.xml:40:13-48
+	android:name
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.6.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\3c7c34a4caed5a853463af417ffd76c1\workspace\transformed\credentials-play-services-auth-1.6.0\AndroidManifest.xml:35:13-101
+activity#androidx.credentials.playservices.controllers.identitycredentials.IdentityCredentialApiHiddenActivity
+ADDED from [androidx.credentials:credentials-play-services-auth:1.6.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\3c7c34a4caed5a853463af417ffd76c1\workspace\transformed\credentials-play-services-auth-1.6.0\AndroidManifest.xml:42:9-49:20
+	android:fitsSystemWindows
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.6.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\3c7c34a4caed5a853463af417ffd76c1\workspace\transformed\credentials-play-services-auth-1.6.0\AndroidManifest.xml:47:13-45
+	android:enabled
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.6.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\3c7c34a4caed5a853463af417ffd76c1\workspace\transformed\credentials-play-services-auth-1.6.0\AndroidManifest.xml:45:13-35
+	android:exported
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.6.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\3c7c34a4caed5a853463af417ffd76c1\workspace\transformed\credentials-play-services-auth-1.6.0\AndroidManifest.xml:46:13-37
+	android:configChanges
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.6.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\3c7c34a4caed5a853463af417ffd76c1\workspace\transformed\credentials-play-services-auth-1.6.0\AndroidManifest.xml:44:13-87
+	android:theme
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.6.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\3c7c34a4caed5a853463af417ffd76c1\workspace\transformed\credentials-play-services-auth-1.6.0\AndroidManifest.xml:48:13-48
+	android:name
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.6.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\3c7c34a4caed5a853463af417ffd76c1\workspace\transformed\credentials-play-services-auth-1.6.0\AndroidManifest.xml:43:13-129
+uses-permission#android.permission.USE_BIOMETRIC
+ADDED from [androidx.biometric:biometric:1.1.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\e6723d3fe8c304906ae869e873085f29\workspace\transformed\biometric-1.1.0\AndroidManifest.xml:24:5-72
+	android:name
+		ADDED from [androidx.biometric:biometric:1.1.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\e6723d3fe8c304906ae869e873085f29\workspace\transformed\biometric-1.1.0\AndroidManifest.xml:24:22-69
+uses-permission#android.permission.USE_FINGERPRINT
+ADDED from [androidx.biometric:biometric:1.1.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\e6723d3fe8c304906ae869e873085f29\workspace\transformed\biometric-1.1.0\AndroidManifest.xml:27:5-74
+	android:name
+		ADDED from [androidx.biometric:biometric:1.1.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\e6723d3fe8c304906ae869e873085f29\workspace\transformed\biometric-1.1.0\AndroidManifest.xml:27:22-71
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:21.1.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\9235d10000859d6124aff805c54d1a3a\workspace\transformed\play-services-auth-21.1.1\AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:21.1.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\9235d10000859d6124aff805c54d1a3a\workspace\transformed\play-services-auth-21.1.1\AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:21.1.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\9235d10000859d6124aff805c54d1a3a\workspace\transformed\play-services-auth-21.1.1\AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:21.1.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\9235d10000859d6124aff805c54d1a3a\workspace\transformed\play-services-auth-21.1.1\AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:21.1.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\9235d10000859d6124aff805c54d1a3a\workspace\transformed\play-services-auth-21.1.1\AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:21.1.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\9235d10000859d6124aff805c54d1a3a\workspace\transformed\play-services-auth-21.1.1\AndroidManifest.xml:33:9-37:51
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:21.1.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\9235d10000859d6124aff805c54d1a3a\workspace\transformed\play-services-auth-21.1.1\AndroidManifest.xml:35:13-36
+	android:visibleToInstantApps
+		ADDED from [com.google.android.gms:play-services-auth:21.1.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\9235d10000859d6124aff805c54d1a3a\workspace\transformed\play-services-auth-21.1.1\AndroidManifest.xml:37:13-48
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:21.1.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\9235d10000859d6124aff805c54d1a3a\workspace\transformed\play-services-auth-21.1.1\AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:21.1.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\9235d10000859d6124aff805c54d1a3a\workspace\transformed\play-services-auth-21.1.1\AndroidManifest.xml:34:13-89
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\fed244dc18683ef0d7cc5fe85451be2f\workspace\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\7b774ade1b64c5065a04c12e11754007\workspace\transformed\play-services-measurement-impl-23.2.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\7b774ade1b64c5065a04c12e11754007\workspace\transformed\play-services-measurement-impl-23.2.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:23.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\7bd0d0ccd0b55f9e0cac6fb671e91dc0\workspace\transformed\play-services-measurement-api-23.2.0\AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:23.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\7bd0d0ccd0b55f9e0cac6fb671e91dc0\workspace\transformed\play-services-measurement-api-23.2.0\AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\c82290733daa76d736b8cc3133cab9cc\workspace\transformed\play-services-measurement-sdk-api-23.2.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\c82290733daa76d736b8cc3133cab9cc\workspace\transformed\play-services-measurement-sdk-api-23.2.0\AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\fed244dc18683ef0d7cc5fe85451be2f\workspace\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:25:22-65
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\fed244dc18683ef0d7cc5fe85451be2f\workspace\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\7b774ade1b64c5065a04c12e11754007\workspace\transformed\play-services-measurement-impl-23.2.0\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\7b774ade1b64c5065a04c12e11754007\workspace\transformed\play-services-measurement-impl-23.2.0\AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\fed244dc18683ef0d7cc5fe85451be2f\workspace\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\fed244dc18683ef0d7cc5fe85451be2f\workspace\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\fed244dc18683ef0d7cc5fe85451be2f\workspace\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\fed244dc18683ef0d7cc5fe85451be2f\workspace\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\fed244dc18683ef0d7cc5fe85451be2f\workspace\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:30:13-85
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\fed244dc18683ef0d7cc5fe85451be2f\workspace\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:35:9-38:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\fed244dc18683ef0d7cc5fe85451be2f\workspace\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\fed244dc18683ef0d7cc5fe85451be2f\workspace\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\fed244dc18683ef0d7cc5fe85451be2f\workspace\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:36:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\fed244dc18683ef0d7cc5fe85451be2f\workspace\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:39:9-43:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\fed244dc18683ef0d7cc5fe85451be2f\workspace\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:41:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\fed244dc18683ef0d7cc5fe85451be2f\workspace\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:42:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\fed244dc18683ef0d7cc5fe85451be2f\workspace\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:43:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\fed244dc18683ef0d7cc5fe85451be2f\workspace\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:40:13-87
+uses-permission#com.google.android.gms.permission.AD_ID
+ADDED from [com.google.android.gms:play-services-measurement-impl:23.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\7b774ade1b64c5065a04c12e11754007\workspace\transformed\play-services-measurement-impl-23.2.0\AndroidManifest.xml:27:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:23.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\7bd0d0ccd0b55f9e0cac6fb671e91dc0\workspace\transformed\play-services-measurement-api-23.2.0\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:23.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\7bd0d0ccd0b55f9e0cac6fb671e91dc0\workspace\transformed\play-services-measurement-api-23.2.0\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\ba016da6bfa76214eba4f38936f742a1\workspace\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\ba016da6bfa76214eba4f38936f742a1\workspace\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\c82290733daa76d736b8cc3133cab9cc\workspace\transformed\play-services-measurement-sdk-api-23.2.0\AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\c82290733daa76d736b8cc3133cab9cc\workspace\transformed\play-services-measurement-sdk-api-23.2.0\AndroidManifest.xml:26:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-impl:23.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\7b774ade1b64c5065a04c12e11754007\workspace\transformed\play-services-measurement-impl-23.2.0\AndroidManifest.xml:27:22-76
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\c67a8497d81c281756ff72ba7d4d4f7e\workspace\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:9-173
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\c67a8497d81c281756ff72ba7d4d4f7e\workspace\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\c67a8497d81c281756ff72ba7d4d4f7e\workspace\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\c67a8497d81c281756ff72ba7d4d4f7e\workspace\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:19-85
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from [com.google.android.recaptcha:recaptcha:18.6.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\784034ee8da62d0d7fcdc35faea8796a\workspace\transformed\recaptcha-18.6.1\AndroidManifest.xml:9:5-98
+	android:name
+		ADDED from [com.google.android.recaptcha:recaptcha:18.6.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\784034ee8da62d0d7fcdc35faea8796a\workspace\transformed\recaptcha-18.6.1\AndroidManifest.xml:9:22-95
+uses-permission#android.permission.ACCESS_ADSERVICES_ATTRIBUTION
+ADDED from [com.google.android.gms:play-services-measurement-api:23.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\7bd0d0ccd0b55f9e0cac6fb671e91dc0\workspace\transformed\play-services-measurement-api-23.2.0\AndroidManifest.xml:26:5-88
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\c82290733daa76d736b8cc3133cab9cc\workspace\transformed\play-services-measurement-sdk-api-23.2.0\AndroidManifest.xml:27:5-88
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\c82290733daa76d736b8cc3133cab9cc\workspace\transformed\play-services-measurement-sdk-api-23.2.0\AndroidManifest.xml:27:5-88
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:23.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\7bd0d0ccd0b55f9e0cac6fb671e91dc0\workspace\transformed\play-services-measurement-api-23.2.0\AndroidManifest.xml:26:22-85
+uses-permission#android.permission.ACCESS_ADSERVICES_AD_ID
+ADDED from [com.google.android.gms:play-services-measurement-api:23.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\7bd0d0ccd0b55f9e0cac6fb671e91dc0\workspace\transformed\play-services-measurement-api-23.2.0\AndroidManifest.xml:27:5-82
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\c82290733daa76d736b8cc3133cab9cc\workspace\transformed\play-services-measurement-sdk-api-23.2.0\AndroidManifest.xml:28:5-82
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\c82290733daa76d736b8cc3133cab9cc\workspace\transformed\play-services-measurement-sdk-api-23.2.0\AndroidManifest.xml:28:5-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:23.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\7bd0d0ccd0b55f9e0cac6fb671e91dc0\workspace\transformed\play-services-measurement-api-23.2.0\AndroidManifest.xml:27:22-79
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:23.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\7bd0d0ccd0b55f9e0cac6fb671e91dc0\workspace\transformed\play-services-measurement-api-23.2.0\AndroidManifest.xml:33:13-35:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:23.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\7bd0d0ccd0b55f9e0cac6fb671e91dc0\workspace\transformed\play-services-measurement-api-23.2.0\AndroidManifest.xml:35:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:23.2.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\7bd0d0ccd0b55f9e0cac6fb671e91dc0\workspace\transformed\play-services-measurement-api-23.2.0\AndroidManifest.xml:34:17-139
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar
+ADDED from [com.google.firebase:firebase-installations:19.1.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\0a3119d072730fa4df50e76972cfa954\workspace\transformed\firebase-installations-19.1.0\AndroidManifest.xml:15:13-17:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:19.1.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\0a3119d072730fa4df50e76972cfa954\workspace\transformed\firebase-installations-19.1.0\AndroidManifest.xml:17:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:19.1.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\0a3119d072730fa4df50e76972cfa954\workspace\transformed\firebase-installations-19.1.0\AndroidManifest.xml:16:17-130
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:19.1.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\0a3119d072730fa4df50e76972cfa954\workspace\transformed\firebase-installations-19.1.0\AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:19.1.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\0a3119d072730fa4df50e76972cfa954\workspace\transformed\firebase-installations-19.1.0\AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:19.1.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\0a3119d072730fa4df50e76972cfa954\workspace\transformed\firebase-installations-19.1.0\AndroidManifest.xml:19:17-127
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:22.0.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\0fe548037896b54f9e7c6ff07f93b9f9\workspace\transformed\firebase-common-22.0.1\AndroidManifest.xml:23:9-28:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:22.0.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\0fe548037896b54f9e7c6ff07f93b9f9\workspace\transformed\firebase-common-22.0.1\AndroidManifest.xml:25:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:22.0.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\0fe548037896b54f9e7c6ff07f93b9f9\workspace\transformed\firebase-common-22.0.1\AndroidManifest.xml:27:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:22.0.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\0fe548037896b54f9e7c6ff07f93b9f9\workspace\transformed\firebase-common-22.0.1\AndroidManifest.xml:26:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:22.0.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\0fe548037896b54f9e7c6ff07f93b9f9\workspace\transformed\firebase-common-22.0.1\AndroidManifest.xml:28:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:22.0.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\0fe548037896b54f9e7c6ff07f93b9f9\workspace\transformed\firebase-common-22.0.1\AndroidManifest.xml:24:13-77
+meta-data#com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar
+ADDED from [com.google.firebase:firebase-common:22.0.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\0fe548037896b54f9e7c6ff07f93b9f9\workspace\transformed\firebase-common-22.0.1\AndroidManifest.xml:35:13-37:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common:22.0.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\0fe548037896b54f9e7c6ff07f93b9f9\workspace\transformed\firebase-common-22.0.1\AndroidManifest.xml:37:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common:22.0.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\0fe548037896b54f9e7c6ff07f93b9f9\workspace\transformed\firebase-common-22.0.1\AndroidManifest.xml:36:17-109
+uses-library#android.ext.adservices
+ADDED from [androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\0070737e97c522be186cf473a2cabbba\workspace\transformed\ads-adservices-1.1.0-beta11\AndroidManifest.xml:23:9-25:40
+	android:required
+		ADDED from [androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\0070737e97c522be186cf473a2cabbba\workspace\transformed\ads-adservices-1.1.0-beta11\AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\0070737e97c522be186cf473a2cabbba\workspace\transformed\ads-adservices-1.1.0-beta11\AndroidManifest.xml:24:13-50
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\32568942e6b2900bdd564409715db6b0\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\be09869a0190f326994e83db0d14b4a9\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\be09869a0190f326994e83db0d14b4a9\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\adc7178af4cd7b150ab3b68c3ae2a807\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\adc7178af4cd7b150ab3b68c3ae2a807\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\9e77413bef3e3bb862409fba617d293b\workspace\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\9e77413bef3e3bb862409fba617d293b\workspace\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\32568942e6b2900bdd564409715db6b0\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\32568942e6b2900bdd564409715db6b0\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\32568942e6b2900bdd564409715db6b0\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\32568942e6b2900bdd564409715db6b0\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\32568942e6b2900bdd564409715db6b0\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\32568942e6b2900bdd564409715db6b0\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\32568942e6b2900bdd564409715db6b0\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.15.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\b16fe81cae4a41e0e92eeda1da6fbab5\workspace\transformed\core-1.15.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.15.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\b16fe81cae4a41e0e92eeda1da6fbab5\workspace\transformed\core-1.15.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.15.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\b16fe81cae4a41e0e92eeda1da6fbab5\workspace\transformed\core-1.15.0\AndroidManifest.xml:23:9-81
+permission#com.mobile.assignment.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.15.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\b16fe81cae4a41e0e92eeda1da6fbab5\workspace\transformed\core-1.15.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.15.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\b16fe81cae4a41e0e92eeda1da6fbab5\workspace\transformed\core-1.15.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.15.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\b16fe81cae4a41e0e92eeda1da6fbab5\workspace\transformed\core-1.15.0\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.15.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\b16fe81cae4a41e0e92eeda1da6fbab5\workspace\transformed\core-1.15.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.15.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\b16fe81cae4a41e0e92eeda1da6fbab5\workspace\transformed\core-1.15.0\AndroidManifest.xml:26:22-94
+uses-permission#com.mobile.assignment.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.15.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\b16fe81cae4a41e0e92eeda1da6fbab5\workspace\transformed\core-1.15.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.15.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\b16fe81cae4a41e0e92eeda1da6fbab5\workspace\transformed\core-1.15.0\AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\be09869a0190f326994e83db0d14b4a9\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\be09869a0190f326994e83db0d14b4a9\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\be09869a0190f326994e83db0d14b4a9\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.9.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\169c4c4719fa968463c8e25b30417f79\workspace\transformed\play-services-basement-18.9.0\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.9.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\169c4c4719fa968463c8e25b30417f79\workspace\transformed\play-services-basement-18.9.0\AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.9.0] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\169c4c4719fa968463c8e25b30417f79\workspace\transformed\play-services-basement-18.9.0\AndroidManifest.xml:22:13-58
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\adc7178af4cd7b150ab3b68c3ae2a807\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\adc7178af4cd7b150ab3b68c3ae2a807\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\adc7178af4cd7b150ab3b68c3ae2a807\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\adc7178af4cd7b150ab3b68c3ae2a807\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\adc7178af4cd7b150ab3b68c3ae2a807\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\adc7178af4cd7b150ab3b68c3ae2a807\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\adc7178af4cd7b150ab3b68c3ae2a807\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\adc7178af4cd7b150ab3b68c3ae2a807\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\adc7178af4cd7b150ab3b68c3ae2a807\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\adc7178af4cd7b150ab3b68c3ae2a807\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\adc7178af4cd7b150ab3b68c3ae2a807\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\adc7178af4cd7b150ab3b68c3ae2a807\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\adc7178af4cd7b150ab3b68c3ae2a807\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\adc7178af4cd7b150ab3b68c3ae2a807\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\adc7178af4cd7b150ab3b68c3ae2a807\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\adc7178af4cd7b150ab3b68c3ae2a807\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\adc7178af4cd7b150ab3b68c3ae2a807\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\adc7178af4cd7b150ab3b68c3ae2a807\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\adc7178af4cd7b150ab3b68c3ae2a807\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\adc7178af4cd7b150ab3b68c3ae2a807\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\adc7178af4cd7b150ab3b68c3ae2a807\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+activity#com.google.android.play.core.common.PlayCoreDialogWrapperActivity
+ADDED from [com.google.android.play:core-common:2.0.3] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\dea496344a33e84752ef781100578242\workspace\transformed\core-common-2.0.3\AndroidManifest.xml:14:9-18:65
+	android:stateNotNeeded
+		ADDED from [com.google.android.play:core-common:2.0.3] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\dea496344a33e84752ef781100578242\workspace\transformed\core-common-2.0.3\AndroidManifest.xml:17:13-42
+	android:exported
+		ADDED from [com.google.android.play:core-common:2.0.3] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\dea496344a33e84752ef781100578242\workspace\transformed\core-common-2.0.3\AndroidManifest.xml:16:13-37
+	android:theme
+		ADDED from [com.google.android.play:core-common:2.0.3] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\dea496344a33e84752ef781100578242\workspace\transformed\core-common-2.0.3\AndroidManifest.xml:18:13-62
+	android:name
+		ADDED from [com.google.android.play:core-common:2.0.3] C:\Users\qaisa\.gradle\caches\9.2.1\transforms\dea496344a33e84752ef781100578242\workspace\transformed\core-common-2.0.3\AndroidManifest.xml:15:13-93

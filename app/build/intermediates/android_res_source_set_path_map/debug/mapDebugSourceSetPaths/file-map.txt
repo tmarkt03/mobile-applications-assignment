@@ -1,0 +1,52 @@
+com.mobile.assignment.app-lifecycle-viewmodel-savedstate-2.6.2-0 C:\Users\qaisa\.gradle\caches\9.2.1\transforms\0006a568b797a2560bf8b1677a916e6e\workspace\transformed\lifecycle-viewmodel-savedstate-2.6.2\res
+com.mobile.assignment.app-ads-adservices-1.1.0-beta11-1 C:\Users\qaisa\.gradle\caches\9.2.1\transforms\0070737e97c522be186cf473a2cabbba\workspace\transformed\ads-adservices-1.1.0-beta11\res
+com.mobile.assignment.app-dynamicanimation-1.1.0-2 C:\Users\qaisa\.gradle\caches\9.2.1\transforms\0116eed4dbfeea6429c8d199bb58801f\workspace\transformed\dynamicanimation-1.1.0\res
+com.mobile.assignment.app-fragment-1.5.7-3 C:\Users\qaisa\.gradle\caches\9.2.1\transforms\0586a4e6d87075a4dd0f32462386ec91\workspace\transformed\fragment-1.5.7\res
+com.mobile.assignment.app-emoji2-views-helper-1.3.0-4 C:\Users\qaisa\.gradle\caches\9.2.1\transforms\09d5ec5d8aae05d194e2c1f9bc848547\workspace\transformed\emoji2-views-helper-1.3.0\res
+com.mobile.assignment.app-firebase-common-22.0.1-5 C:\Users\qaisa\.gradle\caches\9.2.1\transforms\0fe548037896b54f9e7c6ff07f93b9f9\workspace\transformed\firebase-common-22.0.1\res
+com.mobile.assignment.app-datastore-preferences-release-6 C:\Users\qaisa\.gradle\caches\9.2.1\transforms\1681bbcd9097bd2120e7eab6fdbe3328\workspace\transformed\datastore-preferences-release\res
+com.mobile.assignment.app-play-services-basement-18.9.0-7 C:\Users\qaisa\.gradle\caches\9.2.1\transforms\169c4c4719fa968463c8e25b30417f79\workspace\transformed\play-services-basement-18.9.0\res
+com.mobile.assignment.app-appcompat-1.7.1-8 C:\Users\qaisa\.gradle\caches\9.2.1\transforms\17ee1aefae016bda1b29b033352c360c\workspace\transformed\appcompat-1.7.1\res
+com.mobile.assignment.app-viewpager2-1.0.0-9 C:\Users\qaisa\.gradle\caches\9.2.1\transforms\1f6d6ab4ae487bdbbb760066bf1c9eea\workspace\transformed\viewpager2-1.0.0\res
+com.mobile.assignment.app-cardview-1.0.0-10 C:\Users\qaisa\.gradle\caches\9.2.1\transforms\283fa528c960666efe48bdcbec7608e3\workspace\transformed\cardview-1.0.0\res
+com.mobile.assignment.app-datastore-core-release-11 C:\Users\qaisa\.gradle\caches\9.2.1\transforms\2bed6ad98729fdce1d0183ad7a3e2446\workspace\transformed\datastore-core-release\res
+com.mobile.assignment.app-emoji2-1.3.0-12 C:\Users\qaisa\.gradle\caches\9.2.1\transforms\32568942e6b2900bdd564409715db6b0\workspace\transformed\emoji2-1.3.0\res
+com.mobile.assignment.app-annotation-experimental-1.4.1-13 C:\Users\qaisa\.gradle\caches\9.2.1\transforms\3a360431e048c6b242195c8c5e3eb182\workspace\transformed\annotation-experimental-1.4.1\res
+com.mobile.assignment.app-credentials-play-services-auth-1.6.0-14 C:\Users\qaisa\.gradle\caches\9.2.1\transforms\3c7c34a4caed5a853463af417ffd76c1\workspace\transformed\credentials-play-services-auth-1.6.0\res
+com.mobile.assignment.app-core-runtime-2.2.0-15 C:\Users\qaisa\.gradle\caches\9.2.1\transforms\413a1700a10ecd13ea3a146951ba407d\workspace\transformed\core-runtime-2.2.0\res
+com.mobile.assignment.app-datastore-preferences-core-release-16 C:\Users\qaisa\.gradle\caches\9.2.1\transforms\4234f8f16c0deb72b97acfa6e4f17556\workspace\transformed\datastore-preferences-core-release\res
+com.mobile.assignment.app-browser-1.4.0-17 C:\Users\qaisa\.gradle\caches\9.2.1\transforms\43ec590103169d6c6f47ad5e4e22b6ef\workspace\transformed\browser-1.4.0\res
+com.mobile.assignment.app-lifecycle-viewmodel-2.6.2-18 C:\Users\qaisa\.gradle\caches\9.2.1\transforms\45149b73c5d066095c9a1dc5750cdacf\workspace\transformed\lifecycle-viewmodel-2.6.2\res
+com.mobile.assignment.app-graphics-shapes-release-19 C:\Users\qaisa\.gradle\caches\9.2.1\transforms\5b0b0596b26ca0e59386d24ddbb94ba5\workspace\transformed\graphics-shapes-release\res
+com.mobile.assignment.app-recyclerview-1.2.1-20 C:\Users\qaisa\.gradle\caches\9.2.1\transforms\5bc8f0bfefd5fa823d6da17edea4ea42\workspace\transformed\recyclerview-1.2.1\res
+com.mobile.assignment.app-activity-1.8.0-21 C:\Users\qaisa\.gradle\caches\9.2.1\transforms\5cabb23341e1aa3e24da1dbd47b89401\workspace\transformed\activity-1.8.0\res
+com.mobile.assignment.app-constraintlayout-2.1.4-22 C:\Users\qaisa\.gradle\caches\9.2.1\transforms\6820c67a871464da84495261dedffb1f\workspace\transformed\constraintlayout-2.1.4\res
+com.mobile.assignment.app-datastore-release-23 C:\Users\qaisa\.gradle\caches\9.2.1\transforms\6dcc7f27be848dbb24fed0a12f90ea10\workspace\transformed\datastore-release\res
+com.mobile.assignment.app-coordinatorlayout-1.1.0-24 C:\Users\qaisa\.gradle\caches\9.2.1\transforms\762418c0b7190bebfb5b1df9341c0e04\workspace\transformed\coordinatorlayout-1.1.0\res
+com.mobile.assignment.app-lifecycle-runtime-2.6.2-25 C:\Users\qaisa\.gradle\caches\9.2.1\transforms\7bd1afa55b74b0a6df6bbbc517fca3fa\workspace\transformed\lifecycle-runtime-2.6.2\res
+com.mobile.assignment.app-savedstate-1.2.1-26 C:\Users\qaisa\.gradle\caches\9.2.1\transforms\7ee3afe7f556d0f56eeaf8b6900d7599\workspace\transformed\savedstate-1.2.1\res
+com.mobile.assignment.app-lifecycle-livedata-core-2.6.2-27 C:\Users\qaisa\.gradle\caches\9.2.1\transforms\91b82318baa3215ceeb2d0595aedc94c\workspace\transformed\lifecycle-livedata-core-2.6.2\res
+com.mobile.assignment.app-play-services-auth-21.1.1-28 C:\Users\qaisa\.gradle\caches\9.2.1\transforms\9235d10000859d6124aff805c54d1a3a\workspace\transformed\play-services-auth-21.1.1\res
+com.mobile.assignment.app-startup-runtime-1.1.1-29 C:\Users\qaisa\.gradle\caches\9.2.1\transforms\9e77413bef3e3bb862409fba617d293b\workspace\transformed\startup-runtime-1.1.1\res
+com.mobile.assignment.app-appcompat-resources-1.7.1-30 C:\Users\qaisa\.gradle\caches\9.2.1\transforms\a671be363f3574a97df84bf15df22d95\workspace\transformed\appcompat-resources-1.7.1\res
+com.mobile.assignment.app-profileinstaller-1.3.1-31 C:\Users\qaisa\.gradle\caches\9.2.1\transforms\adc7178af4cd7b150ab3b68c3ae2a807\workspace\transformed\profileinstaller-1.3.1\res
+com.mobile.assignment.app-core-1.15.0-32 C:\Users\qaisa\.gradle\caches\9.2.1\transforms\b16fe81cae4a41e0e92eeda1da6fbab5\workspace\transformed\core-1.15.0\res
+com.mobile.assignment.app-drawerlayout-1.1.1-33 C:\Users\qaisa\.gradle\caches\9.2.1\transforms\b8dae20c763a4b6ad8b76eb1ae528344\workspace\transformed\drawerlayout-1.1.1\res
+com.mobile.assignment.app-lifecycle-process-2.6.2-34 C:\Users\qaisa\.gradle\caches\9.2.1\transforms\be09869a0190f326994e83db0d14b4a9\workspace\transformed\lifecycle-process-2.6.2\res
+com.mobile.assignment.app-play-services-base-18.5.0-35 C:\Users\qaisa\.gradle\caches\9.2.1\transforms\c67a8497d81c281756ff72ba7d4d4f7e\workspace\transformed\play-services-base-18.5.0\res
+com.mobile.assignment.app-credentials-1.6.0-36 C:\Users\qaisa\.gradle\caches\9.2.1\transforms\de795f970fddf36c35b20dc4198e80ea\workspace\transformed\credentials-1.6.0\res
+com.mobile.assignment.app-core-common-2.0.3-37 C:\Users\qaisa\.gradle\caches\9.2.1\transforms\dea496344a33e84752ef781100578242\workspace\transformed\core-common-2.0.3\res
+com.mobile.assignment.app-tracing-1.2.0-38 C:\Users\qaisa\.gradle\caches\9.2.1\transforms\e30411d926ce3ee57e6461d55ad06a91\workspace\transformed\tracing-1.2.0\res
+com.mobile.assignment.app-biometric-1.1.0-39 C:\Users\qaisa\.gradle\caches\9.2.1\transforms\e6723d3fe8c304906ae869e873085f29\workspace\transformed\biometric-1.1.0\res
+com.mobile.assignment.app-ads-adservices-java-1.1.0-beta11-40 C:\Users\qaisa\.gradle\caches\9.2.1\transforms\f02d2ab27a6ed20cc2c596ec9a38a2cd\workspace\transformed\ads-adservices-java-1.1.0-beta11\res
+com.mobile.assignment.app-material-1.13.0-41 C:\Users\qaisa\.gradle\caches\9.2.1\transforms\f626a89d07d366d12ed2b2aef18d76ab\workspace\transformed\material-1.13.0\res
+com.mobile.assignment.app-core-ktx-1.15.0-42 C:\Users\qaisa\.gradle\caches\9.2.1\transforms\fcf585746d570c65446191c8b622402f\workspace\transformed\core-ktx-1.15.0\res
+com.mobile.assignment.app-transition-1.5.0-43 C:\Users\qaisa\.gradle\caches\9.2.1\transforms\fe4b7da723aa488ca700c287e6aeea4e\workspace\transformed\transition-1.5.0\res
+com.mobile.assignment.app-pngs-44 C:\Users\qaisa\Desktop\NJE\semester6\Developing Mobile App 2\mobile-applications-assignment\app\build\generated\res\pngs\debug
+com.mobile.assignment.app-res-45 C:\Users\qaisa\Desktop\NJE\semester6\Developing Mobile App 2\mobile-applications-assignment\app\build\generated\res\processDebugGoogleServices
+com.mobile.assignment.app-updated_navigation_xml-46 C:\Users\qaisa\Desktop\NJE\semester6\Developing Mobile App 2\mobile-applications-assignment\app\build\generated\updated_navigation_xml\debug
+com.mobile.assignment.app-packageDebugResources-47 C:\Users\qaisa\Desktop\NJE\semester6\Developing Mobile App 2\mobile-applications-assignment\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.mobile.assignment.app-packageDebugResources-48 C:\Users\qaisa\Desktop\NJE\semester6\Developing Mobile App 2\mobile-applications-assignment\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.mobile.assignment.app-debug-49 C:\Users\qaisa\Desktop\NJE\semester6\Developing Mobile App 2\mobile-applications-assignment\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.mobile.assignment.app-debug-50 C:\Users\qaisa\Desktop\NJE\semester6\Developing Mobile App 2\mobile-applications-assignment\app\src\debug\res
+com.mobile.assignment.app-main-51 C:\Users\qaisa\Desktop\NJE\semester6\Developing Mobile App 2\mobile-applications-assignment\app\src\main\res
