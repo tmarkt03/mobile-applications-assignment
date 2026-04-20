@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Car icon in white, centered in the launcher -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="
+            M76,52
+            L73,43
+            Q72,40 68,40
+            L40,40
+            Q36,40 35,43
+            L32,52
+            L28,52
+            L28,68
+            L35,68
+            Q35,72 39,72
+            Q43,72 43,68
+            L65,68
+            Q65,72 69,72
+            Q73,72 73,68
+            L80,68
+            L80,52
+            Z
+            M40,65
+            Q37,65 37,62
+            Q37,59 40,59
+            Q43,59 43,62
+            Q43,65 40,65
+            Z
+            M68,65
+            Q65,65 65,62
+            Q65,59 68,59
+            Q71,59 71,62
+            Q71,65 68,65
+            Z
+            M34,51
+            L36,44
+            L72,44
+            L74,51
+            Z
+        " />
+</vector>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Car Catalog</string>
+
+    <!-- Login screen -->
+    <string name="hint_email">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="btn_sign_in">Sign In</string>
+    <string name="demo_hint">Don\'t have an account? Tap Create Account to register first.</string>
+
+    <!-- Navigation tabs -->
+    <string name="nav_cars">Cars</string>
+    <string name="nav_search">Search</string>
+    <string name="nav_favourites">Favourites</string>
+
+    <!-- Car detail -->
+    <string name="add_to_favourites">&#9733; Add to Favourites</string>
+    <string name="remove_from_favourites">&#9733; Remove from Favourites</string>
+    <string name="btn_view_buy">&#128722; View &amp; Buy</string>
+</resources>

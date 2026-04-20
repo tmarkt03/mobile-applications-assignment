@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Rounded background for the availability badge on each car card -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <corners android:radius="20dp" />
+    <!-- color is set dynamically in CarAdapter based on availability -->
+    <solid android:color="#2E7D32" />
+</shape>
