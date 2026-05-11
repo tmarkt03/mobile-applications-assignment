@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "77672537635",
+    "project_id": "carrentals-43ea5",
+    "storage_bucket": "carrentals-43ea5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:77672537635:android:0251f44dc6aa3cfb039b96",
+        "android_client_info": {
+          "package_name": "com.mobile.assignment"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkj3GSPhiPpdRTa4jaBwvlqkJf-ND63A0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,7 +1,9 @@
 package com.mobile.assignment;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.widget.Button;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -25,12 +27,18 @@ import retrofit2.Response;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
+import com.google.firebase.auth.FirebaseAuth;
+
 public class MainActivity extends AppCompatActivity {
 
     List<CarItem> carItemList;
     CarAdapter adapter;
+    Button Logout;
+    FirebaseAuth fAuth;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.car_recycler_view);
 
@@ -106,6 +114,14 @@ public class MainActivity extends AppCompatActivity {
 
                 Log.e("MainActivity", t.getMessage());
             }
+        setContentView(R.layout.activity_main);
+
+        Logout = findViewById(R.id.logout);
+        fAuth = FirebaseAuth.getInstance();
+
+        Logout.setOnClickListener(v -> {
+            fAuth.signOut();
+            startActivity(new Intent(getApplicationContext(), Login.class));
         });
 
     }
