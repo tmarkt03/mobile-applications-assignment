@@ -40,7 +40,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.car_recycler_view);
 
         RecyclerView carRecyclerView =
                 findViewById(R.id.carRecyclerView);
@@ -70,50 +69,50 @@ public class MainActivity extends AppCompatActivity {
         Call<CarList> call = service.getAll();
 
         call.enqueue(new Callback<CarList>() {
-            @Override
-            public void onResponse(Call<CarList> call, Response<CarList> response) {
-                if (response.isSuccessful()) {
-                   // List<CarList> car = new ArrayList<>();
-                    for (int i = 0; i < response.body().list.size(); i++) {
-                        int id = response.body()
-                                .list.get(i)
-                                .id;
-                        String carMake = response.body()
-                                .list.get(i)
-                                .carMake;
-                        String carModel = response.body()
-                                .list.get(i)
-                                .carModel;
-                        String color = response.body()
-                                .list.get(i)
-                                .color;
-                        int year = response.body()
-                                .list.get(i)
-                                .year;
-                        String vin = response.body()
-                                .list.get(i)
-                                .vin;
-                        String price = response.body()
-                                .list.get(i)
-                                .price;
-                        boolean availability = response.body()
-                                .list.get(i)
-                                .availability;
-                        carItemList.add(new CarItem(id, carMake, carModel, color, year, vin, price, availability));
+                         @Override
+                         public void onResponse(Call<CarList> call, Response<CarList> response) {
+                             if (response.isSuccessful()) {
+                                 for (int i = 0; i < response.body().list.size(); i++) {
+                                     int id = response.body()
+                                             .list.get(i)
+                                             .id;
+                                     String carMake = response.body()
+                                             .list.get(i)
+                                             .carMake;
+                                     String carModel = response.body()
+                                             .list.get(i)
+                                             .carModel;
+                                     String color = response.body()
+                                             .list.get(i)
+                                             .color;
+                                     int year = response.body()
+                                             .list.get(i)
+                                             .year;
+                                     String vin = response.body()
+                                             .list.get(i)
+                                             .vin;
+                                     String price = response.body()
+                                             .list.get(i)
+                                             .price;
+                                     boolean availability = response.body()
+                                             .list.get(i)
+                                             .availability;
+                                     carItemList.add(new CarItem(id, carMake, carModel, color, year, vin, price, availability));
 
 
-                    }
+                                 }
 
-                    adapter.notifyDataSetChanged();
-                }
+                                 adapter.notifyDataSetChanged();
+                             }
 
-            }
+                         }
 
-            @Override
-            public void onFailure(Call<CarList> call, Throwable t) {
+                         @Override
+                         public void onFailure(Call<CarList> call, Throwable t) {
 
-                Log.e("MainActivity", t.getMessage());
-            }
+                             Log.e("MainActivity", t.getMessage());
+                         }
+        });
         setContentView(R.layout.activity_main);
 
         Logout = findViewById(R.id.logout);
@@ -124,5 +123,6 @@ public class MainActivity extends AppCompatActivity {
             startActivity(new Intent(getApplicationContext(), Login.class));
         });
 
-    }
+        }
+
 }
