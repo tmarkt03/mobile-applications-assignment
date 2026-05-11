@@ -29,20 +29,21 @@ public class CarAdapter extends RecyclerView.Adapter<CarAdapter.CarListHolder> {
 
     @Override
     public void onBindViewHolder(@NonNull CarListHolder holder, int position) {
-        CarItem list = car.get(position);
-        holder.idTextView.setText(list.getId());
-        holder.modelTextView.setText(list.getCarModel());
-        holder.makeTextView.setText(list.getCarMake());
-        holder.priceTextView.setText(list.getPrice());
+        CarItem cars = car.get(position);
+        String carId = Integer.toString(cars.getId());
+        holder.idTextView.setText(carId);
+        holder.modelTextView.setText(cars.getCarModel());
+        holder.makeTextView.setText(cars.getCarMake());
+        holder.priceTextView.setText(cars.getPrice());
 
         holder.itemView.setOnClickListener(v -> {
-            Toast.makeText(v.getContext(), list.getId(), Toast.LENGTH_SHORT).show();
+            Toast.makeText(v.getContext(), cars.getId(), Toast.LENGTH_SHORT).show();
         });
     }
 
     @Override
     public int getItemCount() {
-        return 0;
+        return car.size();
     }
 
     public class CarListHolder extends RecyclerView.ViewHolder{

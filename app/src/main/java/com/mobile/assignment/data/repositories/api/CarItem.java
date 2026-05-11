@@ -83,8 +83,14 @@ public class CarItem {
         this.availability = availability;
     }
 
-    //public CarItem(int id, String carMake, String carModel, String color, int year, String vin, String price, boolean availability) {}
-
-
-
+    public CarItem(int id, String carMake, String carModel, String color, int year, String vin, String price, boolean availability) {
+        this.id = id;
+        this.carMake = carMake;
+        this.carModel = carModel;
+        this.color = color;
+        this.year = year;
+        this.vin = vin;
+        this.price = price;
+        this.availability = availability;
+    }
 }
