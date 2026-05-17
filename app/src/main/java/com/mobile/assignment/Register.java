@@ -2,6 +2,8 @@ package com.mobile.assignment;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Looper;
 import android.text.TextUtils;
 import android.util.Log;
 import android.util.Patterns;
@@ -28,12 +30,16 @@ import java.util.Objects;
 public class Register extends AppCompatActivity {
 
     private static final String TAG = "Register";
+    private static final long AUTH_TIMEOUT_MS = 15000L;
 
     EditText FullName, Email, Password, phoneNumber;
     TextView LoginBtn;
     Button RegisterBtn;
     FirebaseAuth fAuth;
     ProgressBar progressBar;
+    private final Handler mainHandler = new Handler(Looper.getMainLooper());
+    private Runnable authTimeoutRunnable;
+    private boolean isAuthRequestPending;
 
 
     @Override
@@ -85,13 +91,15 @@ public class Register extends AppCompatActivity {
                 return;
             }
 
-            RegisterBtn.setEnabled(false);
-            progressBar.setVisibility(View.VISIBLE);
+            startAuthRequest();
 
             //Register the User in Firebase
             fAuth.createUserWithEmailAndPassword(email, password).addOnCompleteListener(task -> {
+                if (!finishAuthRequest()) {
+                    return;
+                }
+
                 if (task.isSuccessful()) {
-                    progressBar.setVisibility(View.GONE);
                     Toast.makeText(this, "User created", Toast.LENGTH_SHORT).show();
                     startActivity(new Intent(getApplicationContext(), MainActivity.class));
                     finish();
@@ -107,7 +115,6 @@ public class Register extends AppCompatActivity {
     }
 
     private void handleRegistrationFailure(Exception exception) {
-        progressBar.setVisibility(View.GONE);
         RegisterBtn.setEnabled(true);
 
         String message = "Registration failed. Please try again.";
@@ -134,5 +141,50 @@ public class Register extends AppCompatActivity {
 
         Log.e(TAG, "Registration failed", exception);
         Toast.makeText(this, message, Toast.LENGTH_LONG).show();
+    }
+
+    private void startAuthRequest() {
+        isAuthRequestPending = true;
+        RegisterBtn.setEnabled(false);
+        progressBar.setVisibility(View.VISIBLE);
+        clearAuthTimeout();
+
+        authTimeoutRunnable = () -> {
+            if (!isAuthRequestPending || isFinishing() || isDestroyed()) {
+                return;
+            }
+
+            isAuthRequestPending = false;
+            progressBar.setVisibility(View.GONE);
+            RegisterBtn.setEnabled(true);
+            Log.e(TAG, "Registration request timed out");
+            Toast.makeText(this, "Registration timed out. Check your internet connection and try again.", Toast.LENGTH_LONG).show();
+        };
+
+        mainHandler.postDelayed(authTimeoutRunnable, AUTH_TIMEOUT_MS);
+    }
+
+    private boolean finishAuthRequest() {
+        if (!isAuthRequestPending) {
+            return false;
+        }
+
+        isAuthRequestPending = false;
+        clearAuthTimeout();
+        progressBar.setVisibility(View.GONE);
+        return true;
+    }
+
+    private void clearAuthTimeout() {
+        if (authTimeoutRunnable != null) {
+            mainHandler.removeCallbacks(authTimeoutRunnable);
+            authTimeoutRunnable = null;
+        }
+    }
+
+    @Override
+    protected void onDestroy() {
+        clearAuthTimeout();
+        super.onDestroy();
     }
 }

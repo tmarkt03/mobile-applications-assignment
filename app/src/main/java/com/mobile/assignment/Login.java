@@ -2,6 +2,8 @@ package com.mobile.assignment;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Looper;
 import android.text.TextUtils;
 import android.util.Log;
 import android.util.Patterns;
@@ -27,12 +29,16 @@ import java.util.Objects;
 public class Login extends AppCompatActivity {
 
     private static final String TAG = "Login";
+    private static final long AUTH_TIMEOUT_MS = 15000L;
 
     EditText Email, Password;
     TextView RegisterBtn;
     Button LoginBtn;
     ProgressBar progressBar;
     FirebaseAuth fAuth;
+    private final Handler mainHandler = new Handler(Looper.getMainLooper());
+    private Runnable authTimeoutRunnable;
+    private boolean isAuthRequestPending;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -82,13 +88,15 @@ public class Login extends AppCompatActivity {
                 return;
             }
 
-            LoginBtn.setEnabled(false);
-            progressBar.setVisibility(View.VISIBLE);
+            startAuthRequest();
 
             // Login with Firebase
             fAuth.signInWithEmailAndPassword(email, password).addOnCompleteListener(task -> {
+                if (!finishAuthRequest()) {
+                    return;
+                }
+
                 if (task.isSuccessful()) {
-                    progressBar.setVisibility(View.GONE);
                     Toast.makeText(this, "Login Successful", Toast.LENGTH_SHORT).show();
                     startActivity(new Intent(getApplicationContext(), MainActivity.class));
                     finish();
@@ -105,7 +113,6 @@ public class Login extends AppCompatActivity {
     }
 
     private void handleLoginFailure(Exception exception) {
-        progressBar.setVisibility(View.GONE);
         LoginBtn.setEnabled(true);
 
         String message = "Login failed. Please try again.";
@@ -135,5 +142,50 @@ public class Login extends AppCompatActivity {
 
         Log.e(TAG, "Login failed", exception);
         Toast.makeText(this, message, Toast.LENGTH_LONG).show();
+    }
+
+    private void startAuthRequest() {
+        isAuthRequestPending = true;
+        LoginBtn.setEnabled(false);
+        progressBar.setVisibility(View.VISIBLE);
+        clearAuthTimeout();
+
+        authTimeoutRunnable = () -> {
+            if (!isAuthRequestPending || isFinishing() || isDestroyed()) {
+                return;
+            }
+
+            isAuthRequestPending = false;
+            progressBar.setVisibility(View.GONE);
+            LoginBtn.setEnabled(true);
+            Log.e(TAG, "Login request timed out");
+            Toast.makeText(this, "Login timed out. Check your internet connection and try again.", Toast.LENGTH_LONG).show();
+        };
+
+        mainHandler.postDelayed(authTimeoutRunnable, AUTH_TIMEOUT_MS);
+    }
+
+    private boolean finishAuthRequest() {
+        if (!isAuthRequestPending) {
+            return false;
+        }
+
+        isAuthRequestPending = false;
+        clearAuthTimeout();
+        progressBar.setVisibility(View.GONE);
+        return true;
+    }
+
+    private void clearAuthTimeout() {
+        if (authTimeoutRunnable != null) {
+            mainHandler.removeCallbacks(authTimeoutRunnable);
+            authTimeoutRunnable = null;
+        }
+    }
+
+    @Override
+    protected void onDestroy() {
+        clearAuthTimeout();
+        super.onDestroy();
     }
 }
