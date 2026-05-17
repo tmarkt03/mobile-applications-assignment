@@ -15,9 +15,11 @@ import java.util.List;
 
 public class CarAdapter extends RecyclerView.Adapter<CarAdapter.CarListHolder> {
 
-    private List<CarItem> car;
+    private final List<CarItem> car;
 
-    public CarAdapter(List<CarItem> car) {this.car = car;}
+    public CarAdapter(List<CarItem> car) {
+        this.car = car;
+    }
 
     @NonNull
     @Override
@@ -29,15 +31,16 @@ public class CarAdapter extends RecyclerView.Adapter<CarAdapter.CarListHolder> {
 
     @Override
     public void onBindViewHolder(@NonNull CarListHolder holder, int position) {
-        CarItem cars = car.get(position);
-        String carId = Integer.toString(cars.getId());
+        CarItem carItem = car.get(position);
+        String carId = Integer.toString(carItem.getId());
         holder.idTextView.setText(carId);
-        holder.modelTextView.setText(cars.getCarModel());
-        holder.makeTextView.setText(cars.getCarMake());
-        holder.priceTextView.setText(cars.getPrice());
+        holder.modelTextView.setText(carItem.getCarModel());
+        holder.makeTextView.setText(carItem.getCarMake());
+        holder.priceTextView.setText(carItem.getPrice());
 
         holder.itemView.setOnClickListener(v -> {
-            Toast.makeText(v.getContext(), cars.getId(), Toast.LENGTH_SHORT).show();
+            String message = carItem.getCarMake() + " " + carItem.getCarModel();
+            Toast.makeText(v.getContext(), message, Toast.LENGTH_SHORT).show();
         });
     }
 
@@ -46,12 +49,13 @@ public class CarAdapter extends RecyclerView.Adapter<CarAdapter.CarListHolder> {
         return car.size();
     }
 
-    public class CarListHolder extends RecyclerView.ViewHolder{
+    public class CarListHolder extends RecyclerView.ViewHolder {
 
         public TextView modelTextView;
         public TextView makeTextView;
         public TextView idTextView;
         public TextView priceTextView;
+
         public CarListHolder(@NonNull View itemView) {
             super(itemView);
             modelTextView = itemView.findViewById(R.id.modelTextView);
