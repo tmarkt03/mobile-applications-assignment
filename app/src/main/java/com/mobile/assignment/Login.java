@@ -3,6 +3,8 @@ package com.mobile.assignment;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
+import android.util.Log;
+import android.util.Patterns;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -10,17 +12,20 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 
+import com.google.firebase.FirebaseNetworkException;
+import com.google.firebase.FirebaseTooManyRequestsException;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseAuthException;
+import com.google.firebase.auth.FirebaseAuthInvalidCredentialsException;
+import com.google.firebase.auth.FirebaseAuthInvalidUserException;
 
 import java.util.Objects;
 
 public class Login extends AppCompatActivity {
+
+    private static final String TAG = "Login";
 
     EditText Email, Password;
     TextView RegisterBtn;
@@ -54,6 +59,10 @@ public class Login extends AppCompatActivity {
                 Email.setError("Email is Required");
                 return;
             }
+            if (!Patterns.EMAIL_ADDRESS.matcher(email).matches()) {
+                Email.setError("Enter a valid email address");
+                return;
+            }
             if (TextUtils.isEmpty(password)) {
                 Password.setError("Password is Required");
                 return;
@@ -63,17 +72,18 @@ public class Login extends AppCompatActivity {
                 return;
             }
 
+            LoginBtn.setEnabled(false);
             progressBar.setVisibility(View.VISIBLE);
 
             // Login with Firebase
             fAuth.signInWithEmailAndPassword(email, password).addOnCompleteListener(task -> {
                 if (task.isSuccessful()) {
+                    progressBar.setVisibility(View.GONE);
                     Toast.makeText(this, "Login Successful", Toast.LENGTH_SHORT).show();
                     startActivity(new Intent(getApplicationContext(), MainActivity.class));
                     finish();
                 } else {
-                    progressBar.setVisibility(View.GONE);
-                    Toast.makeText(this, "Error! " + Objects.requireNonNull(task.getException()).getMessage(), Toast.LENGTH_SHORT).show();
+                    handleLoginFailure(Objects.requireNonNull(task.getException()));
                 }
             });
         });
@@ -82,5 +92,38 @@ public class Login extends AppCompatActivity {
             startActivity(new Intent(getApplicationContext(), Register.class));
         });
 
+    }
+
+    private void handleLoginFailure(Exception exception) {
+        progressBar.setVisibility(View.GONE);
+        LoginBtn.setEnabled(true);
+
+        String message = "Login failed. Please try again.";
+
+        if (exception instanceof FirebaseAuthInvalidUserException) {
+            Email.setError("No account found for this email");
+            Email.requestFocus();
+            message = "No account found for this email.";
+        } else if (exception instanceof FirebaseAuthInvalidCredentialsException) {
+            FirebaseAuthInvalidCredentialsException authException = (FirebaseAuthInvalidCredentialsException) exception;
+            if ("ERROR_INVALID_EMAIL".equals(authException.getErrorCode())) {
+                Email.setError("Enter a valid email address");
+                Email.requestFocus();
+                message = "Enter a valid email address.";
+            } else {
+                Password.setError("Incorrect email or password");
+                Password.requestFocus();
+                message = "Incorrect email or password.";
+            }
+        } else if (exception instanceof FirebaseNetworkException) {
+            message = "Network error. Check your internet connection and try again.";
+        } else if (exception instanceof FirebaseTooManyRequestsException) {
+            message = "Too many login attempts. Please try again later.";
+        } else if (exception instanceof FirebaseAuthException) {
+            message = ((FirebaseAuthException) exception).getMessage();
+        }
+
+        Log.e(TAG, "Login failed", exception);
+        Toast.makeText(this, message, Toast.LENGTH_LONG).show();
     }
 }

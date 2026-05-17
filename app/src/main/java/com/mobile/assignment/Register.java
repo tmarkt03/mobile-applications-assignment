@@ -3,6 +3,8 @@ package com.mobile.assignment;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
+import android.util.Log;
+import android.util.Patterns;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -10,17 +12,21 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 
+import com.google.firebase.FirebaseNetworkException;
+import com.google.firebase.FirebaseTooManyRequestsException;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseAuthException;
+import com.google.firebase.auth.FirebaseAuthInvalidCredentialsException;
+import com.google.firebase.auth.FirebaseAuthUserCollisionException;
+import com.google.firebase.auth.FirebaseAuthWeakPasswordException;
 
 import java.util.Objects;
 
 public class Register extends AppCompatActivity {
+
+    private static final String TAG = "Register";
 
     EditText FullName, Email, Password, phoneNumber;
     TextView LoginBtn;
@@ -57,6 +63,10 @@ public class Register extends AppCompatActivity {
                 Email.setError("Email is Required");
                 return;
             }
+            if (!Patterns.EMAIL_ADDRESS.matcher(email).matches()) {
+                Email.setError("Enter a valid email address");
+                return;
+            }
             if (TextUtils.isEmpty(password)) {
                 Password.setError("Password is Required");
                 return;
@@ -66,18 +76,18 @@ public class Register extends AppCompatActivity {
                 return;
             }
 
+            RegisterBtn.setEnabled(false);
             progressBar.setVisibility(View.VISIBLE);
 
             //Register the User in Firebase
             fAuth.createUserWithEmailAndPassword(email, password).addOnCompleteListener(task -> {
                 if (task.isSuccessful()) {
-                    progressBar.setVisibility(View.INVISIBLE);
+                    progressBar.setVisibility(View.GONE);
                     Toast.makeText(this, "User created", Toast.LENGTH_SHORT).show();
                     startActivity(new Intent(getApplicationContext(), MainActivity.class));
                     finish();
                 } else {
-                    progressBar.setVisibility(View.INVISIBLE);
-                    Toast.makeText(this, "Error! " + Objects.requireNonNull(task.getException()).getMessage(), Toast.LENGTH_SHORT).show();
+                    handleRegistrationFailure(Objects.requireNonNull(task.getException()));
                 }
             });
         });
@@ -85,5 +95,35 @@ public class Register extends AppCompatActivity {
         LoginBtn.setOnClickListener(v -> {
             startActivity(new Intent(getApplicationContext(), Login.class));
         });
+    }
+
+    private void handleRegistrationFailure(Exception exception) {
+        progressBar.setVisibility(View.GONE);
+        RegisterBtn.setEnabled(true);
+
+        String message = "Registration failed. Please try again.";
+
+        if (exception instanceof FirebaseAuthUserCollisionException) {
+            Email.setError("An account already exists for this email");
+            Email.requestFocus();
+            message = "An account already exists for this email.";
+        } else if (exception instanceof FirebaseAuthWeakPasswordException) {
+            Password.setError("Password must be at least 6 characters");
+            Password.requestFocus();
+            message = "Password must be at least 6 characters.";
+        } else if (exception instanceof FirebaseAuthInvalidCredentialsException) {
+            Email.setError("Enter a valid email address");
+            Email.requestFocus();
+            message = "Enter a valid email address.";
+        } else if (exception instanceof FirebaseNetworkException) {
+            message = "Network error. Check your internet connection and try again.";
+        } else if (exception instanceof FirebaseTooManyRequestsException) {
+            message = "Too many attempts. Please try again later.";
+        } else if (exception instanceof FirebaseAuthException) {
+            message = ((FirebaseAuthException) exception).getMessage();
+        }
+
+        Log.e(TAG, "Registration failed", exception);
+        Toast.makeText(this, message, Toast.LENGTH_LONG).show();
     }
 }
