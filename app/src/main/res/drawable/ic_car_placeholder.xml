@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Placeholder shown while a car image is loading or fails to load -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="250dp"
+    android:viewportWidth="400"
+    android:viewportHeight="250">
+
+    <!-- Background -->
+    <path
+        android:fillColor="#E0E0E0"
+        android:pathData="M0,0 L400,0 L400,250 L0,250 Z" />
+
+    <!-- Simple car silhouette (centered) -->
+    <path
+        android:fillColor="#BDBDBD"
+        android:pathData="
+            M140,140
+            L145,115
+            L165,100
+            L235,100
+            L255,115
+            L260,140
+            L270,140
+            L270,155
+            L250,155
+            Q248,165 240,165
+            Q232,165 230,155
+            L170,155
+            Q168,165 160,165
+            Q152,165 150,155
+            L130,155
+            L130,140
+            Z
+        " />
+
+    <!-- Left wheel -->
+    <path
+        android:fillColor="#9E9E9E"
+        android:pathData="M160,160 m-12,0 a12,12 0 1,0 24,0 a12,12 0 1,0 -24,0" />
+
+    <!-- Right wheel -->
+    <path
+        android:fillColor="#9E9E9E"
+        android:pathData="M240,160 m-12,0 a12,12 0 1,0 24,0 a12,12 0 1,0 -24,0" />
+
+</vector>

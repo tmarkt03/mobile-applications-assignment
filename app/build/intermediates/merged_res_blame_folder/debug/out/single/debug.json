@@ -1,0 +1,70 @@
+[
+    {
+        "merged": "com.carcatalog.app-merged_res-36:/layout_fragment_login.xml.flat",
+        "source": "com.carcatalog.app-main-38:/layout/fragment_login.xml"
+    },
+    {
+        "merged": "com.carcatalog.app-merged_res-36:/drawable_ic_car_placeholder.xml.flat",
+        "source": "com.carcatalog.app-main-38:/drawable/ic_car_placeholder.xml"
+    },
+    {
+        "merged": "com.carcatalog.app-merged_res-36:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.carcatalog.app-main-38:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.carcatalog.app-merged_res-36:/menu_menu_catalog.xml.flat",
+        "source": "com.carcatalog.app-main-38:/menu/menu_catalog.xml"
+    },
+    {
+        "merged": "com.carcatalog.app-merged_res-36:/layout_fragment_register.xml.flat",
+        "source": "com.carcatalog.app-main-38:/layout/fragment_register.xml"
+    },
+    {
+        "merged": "com.carcatalog.app-merged_res-36:/layout_activity_main.xml.flat",
+        "source": "com.carcatalog.app-main-38:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.carcatalog.app-merged_res-36:/drawable_badge_background.xml.flat",
+        "source": "com.carcatalog.app-main-38:/drawable/badge_background.xml"
+    },
+    {
+        "merged": "com.carcatalog.app-merged_res-36:/layout_fragment_car_detail.xml.flat",
+        "source": "com.carcatalog.app-main-38:/layout/fragment_car_detail.xml"
+    },
+    {
+        "merged": "com.carcatalog.app-merged_res-36:/layout_fragment_search.xml.flat",
+        "source": "com.carcatalog.app-main-38:/layout/fragment_search.xml"
+    },
+    {
+        "merged": "com.carcatalog.app-merged_res-36:/layout_item_favourite_car.xml.flat",
+        "source": "com.carcatalog.app-main-38:/layout/item_favourite_car.xml"
+    },
+    {
+        "merged": "com.carcatalog.app-merged_res-36:/layout_item_car.xml.flat",
+        "source": "com.carcatalog.app-main-38:/layout/item_car.xml"
+    },
+    {
+        "merged": "com.carcatalog.app-merged_res-36:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.carcatalog.app-main-38:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.carcatalog.app-merged_res-36:/layout_fragment_car_list.xml.flat",
+        "source": "com.carcatalog.app-main-38:/layout/fragment_car_list.xml"
+    },
+    {
+        "merged": "com.carcatalog.app-merged_res-36:/layout_fragment_favourites.xml.flat",
+        "source": "com.carcatalog.app-main-38:/layout/fragment_favourites.xml"
+    },
+    {
+        "merged": "com.carcatalog.app-merged_res-36:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.carcatalog.app-main-38:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.carcatalog.app-merged_res-36:/menu_menu_bottom_nav.xml.flat",
+        "source": "com.carcatalog.app-main-38:/menu/menu_bottom_nav.xml"
+    },
+    {
+        "merged": "com.carcatalog.app-merged_res-36:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.carcatalog.app-main-38:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    }
+]
