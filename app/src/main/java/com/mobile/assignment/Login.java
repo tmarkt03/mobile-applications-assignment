@@ -15,6 +15,7 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.firebase.FirebaseNetworkException;
+import com.google.firebase.FirebaseApp;
 import com.google.firebase.FirebaseTooManyRequestsException;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseAuthException;
@@ -43,7 +44,16 @@ public class Login extends AppCompatActivity {
         LoginBtn = findViewById(R.id.loginButton);
         RegisterBtn = findViewById(R.id.register);
         progressBar = findViewById(R.id.progressBar);
-        fAuth = FirebaseAuth.getInstance();
+
+        FirebaseApp firebaseApp = FirebaseApp.initializeApp(this);
+        if (firebaseApp == null) {
+            Log.e(TAG, "Firebase failed to initialize in Login");
+            Toast.makeText(this, "Firebase is not configured correctly on this device.", Toast.LENGTH_LONG).show();
+            LoginBtn.setEnabled(false);
+            return;
+        }
+
+        fAuth = FirebaseAuth.getInstance(firebaseApp);
 
         // Check if user is already logged in
         if (fAuth.getCurrentUser() != null) {
