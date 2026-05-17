@@ -1,6 +1,9 @@
 package com.mobile.assignment;
 
 import android.content.Intent;
+import android.net.ConnectivityManager;
+import android.net.Network;
+import android.net.NetworkCapabilities;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
@@ -17,7 +20,6 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.firebase.FirebaseNetworkException;
-import com.google.firebase.FirebaseApp;
 import com.google.firebase.FirebaseTooManyRequestsException;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseAuthException;
@@ -55,15 +57,14 @@ public class Register extends AppCompatActivity {
         RegisterBtn = findViewById(R.id.materialButton);
         progressBar = findViewById(R.id.progressBar);
 
-        FirebaseApp firebaseApp = FirebaseApp.initializeApp(this);
-        if (firebaseApp == null) {
-            Log.e(TAG, "Firebase failed to initialize in Register");
+        try {
+            fAuth = FirebaseAuth.getInstance();
+        } catch (IllegalStateException exception) {
+            Log.e(TAG, "FirebaseAuth is unavailable in Register", exception);
             Toast.makeText(this, "Firebase is not configured correctly on this device.", Toast.LENGTH_LONG).show();
             RegisterBtn.setEnabled(false);
             return;
         }
-
-        fAuth = FirebaseAuth.getInstance(firebaseApp);
 
         if (fAuth.getCurrentUser() != null) {
             startActivity(new Intent(getApplicationContext(), MainActivity.class));
@@ -88,6 +89,10 @@ public class Register extends AppCompatActivity {
             }
             if (password.length() < 6) {
                 Password.setError("Password Must be >= 6 Characters");
+                return;
+            }
+            if (!hasNetworkConnection()) {
+                Toast.makeText(this, "No internet connection available on this device.", Toast.LENGTH_LONG).show();
                 return;
             }
 
@@ -157,8 +162,15 @@ public class Register extends AppCompatActivity {
             isAuthRequestPending = false;
             progressBar.setVisibility(View.GONE);
             RegisterBtn.setEnabled(true);
-            Log.e(TAG, "Registration request timed out");
-            Toast.makeText(this, "Registration timed out. Check your internet connection and try again.", Toast.LENGTH_LONG).show();
+            boolean hasNetworkConnection = hasNetworkConnection();
+            Log.e(TAG, "Registration request timed out. Network connected: " + hasNetworkConnection);
+            Toast.makeText(
+                    this,
+                    hasNetworkConnection
+                            ? "Registration timed out while contacting Firebase. Check the device date and internet connection, then try again."
+                            : "No internet connection available on this device.",
+                    Toast.LENGTH_LONG
+            ).show();
         };
 
         mainHandler.postDelayed(authTimeoutRunnable, AUTH_TIMEOUT_MS);
@@ -186,5 +198,27 @@ public class Register extends AppCompatActivity {
     protected void onDestroy() {
         clearAuthTimeout();
         super.onDestroy();
+    }
+
+    private boolean hasNetworkConnection() {
+        ConnectivityManager connectivityManager = getSystemService(ConnectivityManager.class);
+        if (connectivityManager == null) {
+            return false;
+        }
+
+        Network activeNetwork = connectivityManager.getActiveNetwork();
+        if (activeNetwork == null) {
+            return false;
+        }
+
+        NetworkCapabilities networkCapabilities = connectivityManager.getNetworkCapabilities(activeNetwork);
+        if (networkCapabilities == null || !networkCapabilities.hasCapability(NetworkCapabilities.NET_CAPABILITY_INTERNET)) {
+            return false;
+        }
+
+        return networkCapabilities.hasTransport(NetworkCapabilities.TRANSPORT_WIFI)
+                || networkCapabilities.hasTransport(NetworkCapabilities.TRANSPORT_CELLULAR)
+                || networkCapabilities.hasTransport(NetworkCapabilities.TRANSPORT_ETHERNET)
+                || networkCapabilities.hasTransport(NetworkCapabilities.TRANSPORT_VPN);
     }
 }
